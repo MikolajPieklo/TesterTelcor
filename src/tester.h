@@ -3,6 +3,7 @@
 #include "em_cmu.h"
 #include "my_timer.h"
 #include "myUSB.h"
+#include <em_i2c.h>
 
 #define ZAL_LD_RS485       128
 #define ZAL_POM_I_TC	   32
@@ -35,7 +36,9 @@
 
 uint8_t PP_FLAGS;
 uint8_t PP_ADC_RDY;
-volatile uint8_t flagai2c_timeout;
+
+I2C_TransferSeq_TypeDef i2cTransfert;
+I2C_TransferReturn_TypeDef ret;
 
 
 typedef struct
@@ -69,6 +72,12 @@ typedef struct
 	eZadanie VZAS2;
 	eZadanie VBAT;
 	eZadanie I_TC;
+	eZadanie STC3105_Get_Voltage;
+	eZadanie STC3105_Get_Current;
+	eZadanie STC3105_Get_Counter;
+	eZadanie STC3105_Get_Culomb;
+	eZadanie STC3105_Restart;
+	eZadanie STC3105_Get_Config;
 }tZadanie;
 
 typedef struct
@@ -77,6 +86,11 @@ typedef struct
 	float VZAS2;
 	float VBAT;
 	float I_TC;
+	uint16_t STC3105_Voltage;
+	float STC3105_Current;
+	uint16_t ui16Buffor;
+	uint8_t ui8Buffor_Hi;
+	uint8_t ui8Buffor_Lo;
 }tPomiary;
 
 typedef struct

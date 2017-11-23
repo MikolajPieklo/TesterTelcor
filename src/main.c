@@ -274,66 +274,17 @@ static int myCallback(USB_Status_TypeDef status, uint32_t xferred,uint32_t remai
 					case 0x0018:
 						Tester.Zadanie.I_TC =Ogloszone;
 						break;
+					case 0x001A:
+						Tester.Zadanie.STC3105_Get_Voltage = Ogloszone;
+						break;
 
 					}//end_switch
 				}//end_CRC16
 			}//Modbus_Read_END
 		}//Modbus_Address_END
 
-		/*switch (bufferodbior[0] + bufferodbior[1]) {
-		case 160: //zadanie PP_X{s1s2s3s4s5s6s7}1 Pomiar napiec na PP
-			if (bufferodbior[3] == 'V') {
-				if (bufferodbior[5] == '1')	flaga_zadan.PP_Vol |= 1;
-				if (bufferodbior[6] == '1')	flaga_zadan.PP_Vol |= 2;
-				if (bufferodbior[7] == '1')	flaga_zadan.PP_Vol |= 4;
-				if (bufferodbior[8] == '1')	flaga_zadan.PP_Vol |= 8;
-				if (bufferodbior[9] == '1')	flaga_zadan.PP_Vol |= 16;
-				if (bufferodbior[10] == '1')flaga_zadan.PP_Vol |= 32;
-				if (bufferodbior[11] == '1')flaga_zadan.PP_Vol |= 64;
-			}
-			if (bufferodbior[3] == 'E') { //Sprawdz eprom
-				if (bufferodbior[5] == '1')	flaga_zadan.PP_Epro |= 1;
-				if (bufferodbior[6] == '1')	flaga_zadan.PP_Epro |= 2;
-				if (bufferodbior[7] == '1')	flaga_zadan.PP_Epro |= 4;
-				if (bufferodbior[8] == '1')	flaga_zadan.PP_Epro |= 8;
-				if (bufferodbior[9] == '1')	flaga_zadan.PP_Epro |= 16;
-				if (bufferodbior[10] == '1')flaga_zadan.PP_Epro |= 32;
-				if (bufferodbior[11] == '1')flaga_zadan.PP_Epro |= 64;
-			}
-			break;
-
-		case 132: //Zadanie BB_B{s1s2s3s4s5s6s7}1
-			if (bufferodbior[3] == 'B') {
-				if (bufferodbior[5] == '1')flaga_zadan.BB_B |= 1;
-				if (bufferodbior[6] == '1')flaga_zadan.BB_B |= 2;
-				if (bufferodbior[7] == '1')flaga_zadan.BB_B |= 4;
-				if (bufferodbior[8] == '1')flaga_zadan.BB_B |= 8;
-				if (bufferodbior[9] == '1')flaga_zadan.BB_B |= 16;
-			}
-			break;
-		case 0x9A: //Zadanie Modbus
-			if (bufferodbior[3] == 'R') {
-				if (bufferodbior[4] == '1' && bufferodbior[5] == '1')flaga_zadan.MM_R |= 1;
-				if (bufferodbior[4] == '1' && bufferodbior[5] == '2')flaga_zadan.MM_R |= 2;
-				if (bufferodbior[4] == '1' && bufferodbior[5] == '3')flaga_zadan.MM_R |= 4;
-			}
-			if (bufferodbior[3] == 'W') {
-				if (bufferodbior[4] == '1' && bufferodbior[5] == '1')flaga_zadan.MM_W |= 1;
-			}
-			break;
-		case 0xA8: //Zadanie Check Hardware
-			if (bufferodbior[3] == 'G') {
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '0')flaga_zadan.TT_G |= 0x01;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '1')flaga_zadan.TT_G |= 0x02;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '2')flaga_zadan.TT_G |= 0x04;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '3')flaga_zadan.TT_G |= 0x08;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '4')flaga_zadan.TT_G |= 0x10;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '5')flaga_zadan.TT_G |= 0x20;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '6')flaga_zadan.TT_G |= 0x40;
-				if (bufferodbior[4] == '0' && bufferodbior[5] == '7')flaga_zadan.TT_G |= 0x80;
-			}
-		}*/
 		//USBD_Write(0x81,Modbus_Buffor_Tab,sizeof(Modbus_Buffor_Tab),dataSentCallback);
+
 		uint8_t i=0;
 		for(i=0;i<sizeof(Modbus_Buffor_Tab);i++)
 		{
@@ -660,16 +611,10 @@ void Main_Zadanie() {
 		Tester.Pomiary.VZAS1 = ADC_Conversation(ZAL_POM_VZAS1, ZAL_POM_VZAS_I);
 		Tester.Pomiary.VZAS1 = 4 * Tester.Pomiary.VZAS1;
 		p=&Tester.Pomiary.VZAS1;
-		Modbus_Buffor_Tab[0]=0x10;
-		Modbus_Buffor_Tab[1]=0x03;
-		Modbus_Buffor_Tab[2]=0x04;
-		Modbus_Buffor_Tab[3]=*(p);
-		Modbus_Buffor_Tab[4]=*(p+1);
-		Modbus_Buffor_Tab[5]=*(p+2);
-		Modbus_Buffor_Tab[6]=*(p+3);
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x04;
+		Modbus_Buffor_Tab[3]=*(p);Modbus_Buffor_Tab[4]=*(p+1);Modbus_Buffor_Tab[5]=*(p+2);Modbus_Buffor_Tab[6]=*(p+3);
 		lCRC16=CRC16(Modbus_Buffor_Tab,7);
-		Modbus_Buffor_Tab[7]=(lCRC16>>8);
-		Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
+		Modbus_Buffor_Tab[7]=(lCRC16>>8);Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
 		USBD_Write(0x81,Modbus_Buffor_Tab,9,dataSentCallback);
 		Tester.Zadanie.VZAS1=Nieogloszone;
 	}//END_Tester.Zadanie.VZAS1
@@ -680,16 +625,10 @@ void Main_Zadanie() {
 		Tester.Pomiary.VZAS2= ADC_Conversation(ZAL_POM_VZAS2_VBAT, ZAL_POM_VZAS2);
 		Tester.Pomiary.VZAS2 = 4 * Tester.Pomiary.VZAS2;
 		p=&Tester.Pomiary.VZAS2;
-		Modbus_Buffor_Tab[0]=0x10;
-		Modbus_Buffor_Tab[1]=0x03;
-		Modbus_Buffor_Tab[2]=0x04;
-		Modbus_Buffor_Tab[3]=*(p);
-		Modbus_Buffor_Tab[4]=*(p+1);
-		Modbus_Buffor_Tab[5]=*(p+2);
-		Modbus_Buffor_Tab[6]=*(p+3);
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x04;
+		Modbus_Buffor_Tab[3]=*(p);Modbus_Buffor_Tab[4]=*(p+1);Modbus_Buffor_Tab[5]=*(p+2);Modbus_Buffor_Tab[6]=*(p+3);
 		lCRC16=CRC16(Modbus_Buffor_Tab,7);
-		Modbus_Buffor_Tab[7]=(lCRC16>>8);
-		Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
+		Modbus_Buffor_Tab[7]=(lCRC16>>8);Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
 		USBD_Write(0x81,Modbus_Buffor_Tab,9,dataSentCallback);
 
 		Tester.Zadanie.VZAS2=Nieogloszone;
@@ -703,16 +642,10 @@ void Main_Zadanie() {
 			Tester.Pomiary.VBAT = 4 * Tester.Pomiary.VBAT;
 		}
 		p=&Tester.Pomiary.VBAT;
-		Modbus_Buffor_Tab[0]=0x10;
-		Modbus_Buffor_Tab[1]=0x03;
-		Modbus_Buffor_Tab[2]=0x04;
-		Modbus_Buffor_Tab[3]=*(p);
-		Modbus_Buffor_Tab[4]=*(p+1);
-		Modbus_Buffor_Tab[5]=*(p+2);
-		Modbus_Buffor_Tab[6]=*(p+3);
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x04;
+		Modbus_Buffor_Tab[3]=*(p);Modbus_Buffor_Tab[4]=*(p+1);Modbus_Buffor_Tab[5]=*(p+2);Modbus_Buffor_Tab[6]=*(p+3);
 		lCRC16=CRC16(Modbus_Buffor_Tab,7);
-		Modbus_Buffor_Tab[7]=(lCRC16>>8);
-		Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
+		Modbus_Buffor_Tab[7]=(lCRC16>>8);Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
 		USBD_Write(0x81,Modbus_Buffor_Tab,9,dataSentCallback);
 
 		Tester.Zadanie.VBAT=Nieogloszone;
@@ -726,122 +659,19 @@ void Main_Zadanie() {
 		Tester.Pomiary.I_TC = ADC_Conversation(ZAL_POM_I_TC, ZAL_POM_VZAS_I);
 		Tester.Pomiary.I_TC = Tester.Pomiary.I_TC - 0.7015;
 		p=&Tester.Pomiary.I_TC;
-		Modbus_Buffor_Tab[0]=0x10;
-		Modbus_Buffor_Tab[1]=0x03;
-		Modbus_Buffor_Tab[2]=0x04;
-		Modbus_Buffor_Tab[3]=*(p);
-		Modbus_Buffor_Tab[4]=*(p+1);
-		Modbus_Buffor_Tab[5]=*(p+2);
-		Modbus_Buffor_Tab[6]=*(p+3);
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x04;
+		Modbus_Buffor_Tab[3]=*(p);Modbus_Buffor_Tab[4]=*(p+1);Modbus_Buffor_Tab[5]=*(p+2);Modbus_Buffor_Tab[6]=*(p+3);
 		lCRC16=CRC16(Modbus_Buffor_Tab,7);
-		Modbus_Buffor_Tab[7]=(lCRC16>>8);
-		Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
+		Modbus_Buffor_Tab[7]=(lCRC16>>8);Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
 		USBD_Write(0x81,Modbus_Buffor_Tab,9,dataSentCallback);
 		Tester_Relay_PK1_OFF();
 		Tester.Zadanie.I_TC=Nieogloszone;
 	}//END_Tester.Zadanie.I_TC
-
-
-
-
-
-	//---------
-	while (flaga_zadan.PO_Vol != 0) {
-			float result = 0;
-			float frc_part = 0;
-			float int_part = 0;
-			uint8_t index = 0;
-
-			if ((flaga_zadan.PO_Vol & 0x01) == 1) { //Nap bat symulacyjnej podlaczone do TelCor 3...3,7
-				if (Tester_Acces_to_STER()) {
-
-					frc_part = modf(result, &int_part);
-					for (index = 0; index < result; index++)
-						;
-					index -= 1;
-					val_zadanie[3] = (uint8_t) (48 + index);
-					val_zadanie[4] = 46; //kropka
-					val_zadanie[5] = ((uint8_t) 10 * frc_part) + 48;
-					val_zadanie[6] = (uint8_t) ((100 * frc_part)
-							- (10 * (val_zadanie[5] - 48)) + 48);
-					val_zadanie[7] = (uint8_t) ((1000 * frc_part)
-							- (100 * (val_zadanie[5] - 48))
-							- (10 * (val_zadanie[6] - 48))) + 48;
-					USBD_Write(0x81, val_zadanie, sizeof(val_zadanie),
-							dataSentCallback);
-				}
-			}
-
-			if ((flaga_zadan.PO_Vol & 0x02) == 2) { //Nap bat fizycznej podl. do testera 3...3,7
-
-					frc_part = modf(result, &int_part);
-					for (index = 0; index < result; index++)
-						;
-					index -= 1;
-
-					val_zadanie[3] = (uint8_t) (48 + index);
-					val_zadanie[4] = 46; //kropka
-					val_zadanie[5] = ((uint8_t) 10 * frc_part) + 48;
-					val_zadanie[6] = (uint8_t) ((100 * frc_part)
-							- (10 * (val_zadanie[5] - 48)) + 48);
-					val_zadanie[7] = (uint8_t) ((1000 * frc_part)
-							- (100 * (val_zadanie[5] - 48))
-							- (10 * (val_zadanie[6] - 48))) + 48;
-
-
-			}
-			if ((flaga_zadan.PO_Vol & 0x04) == 4) //Pomiar pradu Telcor
-					{
-
-				frc_part = modf(result, &int_part);
-				for (index = 0; index < result; index++)
-					;
-				index -= 1;
-				val_zadanie[0] = 'I';
-				val_zadanie[1] = 'Z';
-				val_zadanie[2] = 'T';
-				val_zadanie[3] = (uint8_t) (48 + index);
-				val_zadanie[4] = 46; //kropka
-				val_zadanie[5] = ((uint8_t) 10 * frc_part) + 48;
-				val_zadanie[6] = (uint8_t) ((100 * frc_part)
-						- (10 * (val_zadanie[5] - 48)) + 48);
-				val_zadanie[7] = (uint8_t) ((1000 * frc_part)
-						- (100 * (val_zadanie[5] - 48))
-						- (10 * (val_zadanie[6] - 48))) + 48;
-
-			}
-			if ((flaga_zadan.PO_Vol & 0x08) == 8) { //Nap telcor 3.3V VZAS2
-					frc_part = modf(result, &int_part);
-					for (index = 0; index < result; index++)
-						;
-					index -= 1;
-
-					val_zadanie[3] = (uint8_t) (48 + index);
-					val_zadanie[4] = 46; //kropka
-					val_zadanie[5] = ((uint8_t) 10 * frc_part) + 48;
-					val_zadanie[6] = (uint8_t) ((100 * frc_part)
-							- (10 * (val_zadanie[5] - 48)) + 48);
-					val_zadanie[7] = (uint8_t) ((1000 * frc_part)
-							- (100 * (val_zadanie[5] - 48))
-							- (10 * (val_zadanie[6] - 48))) + 48;
-
-			}
-		}
-	//---------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	if(Tester.Zadanie.STC3105_Get_Voltage == Ogloszone){
+		Tester.Zadanie.STC3105_Get_Voltage = Wykonywane;
+		Tester.Pomiary.STC3105_Voltage=STC3105_GET_VOLTAGE();
+		Tester.Zadanie.STC3105_Get_Voltage = Nieogloszone;
+	}//END_Tester.Zadanie.STC3105_Get_Voltage
 
 
 
@@ -1082,16 +912,14 @@ void Main_Zadanie() {
 		if ((flaga_zadan.BB_B & 0x10) == 16) { //Konfiguracja
 			flaga_zadan.BB_B &= 0x6F; //Clear flag
 			if (Tester_Acces_to_MZB()) {
-				STC3105_Init_ConfigMode(REG_MODE, GG_RUN_OPERATING_MODE);
+				//STC3105_Init_ConfigMode(REG_MODE, GG_RUN_OPERATING_MODE);
 			}
 		}
 
 		if ((flaga_zadan.BB_B & 0x20) == 32) { //Restart
 			flaga_zadan.BB_B &= 0x5F; //Clear flag
 			if (Tester_Acces_to_MZB()) {
-				STC3105_Init_ConfigMode(REG_CTRL,
-						PORDET_RELEASE_ASSERT_RESTART | GG_RST_ON
-								| IO_DATA_ALM_ON);
+				//STC3105_Init_ConfigMode(REG_CTRL,PORDET_RELEASE_ASSERT_RESTART | GG_RST_ON	| IO_DATA_ALM_ON);
 			}
 		}
 

@@ -84,10 +84,6 @@
 #define _GPIOB6S 0x40
 #define _GPIOB7S 0x80
 
-
-  I2C_TransferSeq_TypeDef i2cTransfert;
-  I2C_TransferReturn_TypeDef ret;
-
 void MCP23017_Init_I2C(void);
 /*
  * Funkcje

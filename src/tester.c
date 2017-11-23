@@ -578,7 +578,7 @@ void TIMER2_IRQHandler(void)
 {
 	TIMER_IntDisable(TIMER2, TIMER_IF_OF);
 	TIMER_IntClear(TIMER2, TIMER_IF_OF);
-	flagai2c_timeout = 1;
+
 }
 
 void DebugMon_Handler(void)

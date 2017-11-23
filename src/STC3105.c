@@ -71,9 +71,6 @@ uint16_t Tab_Voltage[2049] = {2,4,7,9,12,14,17,19,21,24,26,29,31,34,36,39,41,43,
 		4984,4987,4989,4992,4994,4997,4999};
 
 
-I2C_TransferSeq_TypeDef i2cTransfertSTC3105;
-I2C_TransferReturn_TypeDef statusSTC3105;
-
 void STC3105_INIT_I2C(void)
 {
 	//I2C_Init_TypeDef i2cInit = I2C_INIT_DEFAULT;
@@ -94,130 +91,114 @@ void STC3105_INIT_I2C(void)
 
 void STC3105_WriteRegister(uint8_t reg, uint8_t value)
 {
-	uint8_t ui8result = 0;
-	uint8_t ui8Deb = 0;
-	uint8_t Tab[2];
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_WRITE;
+	i2cTransfert.buf[0].data = &reg;
+	i2cTransfert.buf[0].len = 1;
+	i2cTransfert.buf[1].data = &value;
+	i2cTransfert.buf[1].len = 1;
 
-	Tab[0] = reg;
-	Tab[1] = value;
-
-	i2cTransfertSTC3105.addr = STC3105_Address;
-	i2cTransfertSTC3105.flags = I2C_FLAG_WRITE_WRITE;     // READ Operation
-	i2cTransfertSTC3105.buf[0].data = &Tab;             // buffer
-	i2cTransfertSTC3105.buf[0].len = 2;            // Read 2 bytes as the device is 16b
-
-
-	statusSTC3105 = I2C_TransferInit(I2C1, &i2cTransfertSTC3105);
-	while ( statusSTC3105 == i2cTransferInProgress) {
-		statusSTC3105 = I2C_Transfer(I2C1);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	while ( ret == i2cTransferInProgress) {
+		ret = I2C_Transfer(I2C1);
 	}
 }
 
 uint8_t STC3105_ReadRegister(uint8_t reg)
 {
 	uint8_t value =0;
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-	STC3105_INIT_I2C();
-	uint8_t regid[1];	uint8_t data[1];
+	uint8_t regid;
+	uint8_t data[1];
 
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;/* Select register to be read */
-	regid[0] = reg; seq.buf[0].data = regid; seq.buf[0].len = 1;
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = reg;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-		/* Select location/length to place register */
-		/* Only 1 byte reg, clear upper 8 bits */
 	data[0] = 0;
+	i2cTransfert.buf[1].data=data;
+	i2cTransfert.buf[1].len = 1;
 
-	seq.buf[1].data=data;seq.buf[1].len = 2;
-
-		  /* Do a polled transfer */
-	I2C_Status = I2C_TransferInit(I2C1, &seq);
-	while (I2C_Status == i2cTransferInProgress){
-		  I2C_Status = I2C_Transfer(I2C1);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	while (ret == i2cTransferInProgress){
+		  ret = I2C_Transfer(I2C1);
 	}
 	value=data[0];
 	return value;
 }
+
 uint8_t STC3105_GET_CURRENT_THRES()
 {
 	uint8_t value = 0;
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-	STC3105_INIT_I2C();
-	uint8_t regid[1];	uint8_t data[1];
+	uint8_t regid;
+	uint8_t data[1];
 
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;/* Select register to be read */
-	regid[0] = REG_CURRENT_THRES; seq.buf[0].data = regid; seq.buf[0].len = 1;
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = STC3105_R_CURRENT_THRES;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-			/* Select location/length to place register */
-			/* Only 1 byte reg, clear upper 8 bits */
 	data[0] = 0;
+	i2cTransfert.buf[1].data=data;
+	i2cTransfert.buf[1].len = 1;
 
-	seq.buf[1].data=data;seq.buf[1].len = 2;
-
-			  /* Do a polled transfer */
-	I2C_Status = I2C_TransferInit(I2C1, &seq);
-	while (I2C_Status == i2cTransferInProgress){
-		  I2C_Status = I2C_Transfer(I2C1);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	while (ret == i2cTransferInProgress){
+		  ret = I2C_Transfer(I2C1);
 	}
 	value=data[0];
 
 		return value;
 }
+
 uint8_t STC3105_GET_ALARM()
 {
-	uint8_t value = 0;
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-	STC3105_INIT_I2C();
-	uint8_t regid[1]; uint8_t data[1];
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;/* Select register to be read */
-	regid[0] = REG_ALARM_VOLTAGE; seq.buf[0].data = regid; seq.buf[0].len = 1;
 
-	/* Select location/length to place register */
-	/* Only 1 byte reg, clear upper 8 bits */
-	data[0] = 0;
+	uint8_t regid;
+	uint8_t data;
 
-	seq.buf[1].data=data; seq.buf[1].len = 1;
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = STC3105_R_ALARM_VOLTAGE;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-		  /* Do a polled transfer */
-		I2C_Status = I2C_TransferInit(I2C1, &seq);
-		while (I2C_Status == i2cTransferInProgress){
-			  I2C_Status = I2C_Transfer(I2C1);
+	data = 0;
+	i2cTransfert.buf[1].data=&data;
+	i2cTransfert.buf[1].len = 1;
+
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+		while (ret == i2cTransferInProgress){
+			  ret = I2C_Transfer(I2C1);
 		}
-	value=data[0];
-	return value;
+	return data;
 }
+
 uint16_t STC3105_GET_CURRENT()
 {
 	uint16_t vlt = 0;
 
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-	STC3105_INIT_I2C();
-	uint8_t regid[1];
+	uint8_t regid;
 	uint8_t data[2];
 
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;
-	/* Select register to be read */
-	regid[0] = REG_CURRENT_LOW; seq.buf[0].data = regid; seq.buf[0].len = 1;
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = STC3105_R_CURRENT_LOW;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-	/* Select location/length to place register */
-	/* Only 1 byte reg, clear upper 8 bits */
 	data[0] = 0;
 	data[1] = 0;
 
-	seq.buf[1].data=data;
-	seq.buf[1].len = 2;
+	i2cTransfert.buf[1].data=data;
+	i2cTransfert.buf[1].len = 2;
 
 	  /* Do a polled transfer */
-	I2C_Status = I2C_TransferInit(I2C1, &seq);
-	while (I2C_Status == i2cTransferInProgress){
-		  I2C_Status = I2C_Transfer(I2C1);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	while (ret == i2cTransferInProgress){
+		  ret = I2C_Transfer(I2C1);
 	}
 
 	vlt= (uint16_t)data[1] << 8 | data[0];
@@ -226,128 +207,110 @@ uint16_t STC3105_GET_CURRENT()
 
 	return vlt; // mA
 }
+
 uint16_t STC3105_GET_VOLTAGE()
 {
 	uint16_t voltage = 0;
 
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
+	//STC3105_INIT_I2C();
 
-	STC3105_INIT_I2C();
-
-	 uint8_t regid[1];
+	 uint8_t regid;
 	 uint8_t data[2];
 
-	 seq.addr = STC3105_Address;
-	 seq.flags = I2C_FLAG_WRITE_READ;
-	  /* Select register to be read */
-	 regid[0] = REG_VOLTAGE_LOW; seq.buf[0].data = regid; seq.buf[0].len = 1;
+	 i2cTransfert.addr = STC3105_Address;
+	 i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	 regid = STC3105_R_VOLTAGE_LOW;
+	 i2cTransfert.buf[0].data = &regid;
+	 i2cTransfert.buf[0].len = 1;
 
-	  /* Select location/length to place register */
-	    /* Only 1 byte reg, clear upper 8 bits */
 	  data[0] = 0;
 	  data[1] = 0;
 
-	 seq.buf[1].data=data;
-	 seq.buf[1].len = 2;
+	 i2cTransfert.buf[1].data=data;
+	 i2cTransfert.buf[1].len = 2;
 
 	  /* Do a polled transfer */
-	 I2C_Status = I2C_TransferInit(I2C1, &seq);
-	  while (I2C_Status == i2cTransferInProgress){
-		  I2C_Status = I2C_Transfer(I2C1);
+	 ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	  while (ret == i2cTransferInProgress){
+		  ret = I2C_Transfer(I2C1);
 	    }
 	voltage = (uint16_t)data[1]<< 8 |data[0];
 	return Tab_Voltage[voltage]; // mV
 }
+
 uint16_t STC3105_GET_CHARGE()
 {
 	uint16_t result = 0;
 
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-
-	STC3105_INIT_I2C();
-
-	uint8_t regid[1];
+	uint8_t regid;
 	uint8_t data[2];
 
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;
-	/* Select register to be read */
-	regid[0] = REG_CHARGE_LOW; seq.buf[0].data = regid; seq.buf[0].len = 1;
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = STC3105_R_CHARGE_LOW;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-	/* Select location/length to place register */
-	/* Only 1 byte reg, clear upper 8 bits */
+
 	data[0] = 0;
 	data[1] = 0;
+	i2cTransfert.buf[1].data=data;
+	i2cTransfert.buf[1].len = 2;
 
-	seq.buf[1].data=data; seq.buf[1].len = 2;
-    /* Do a polled transfer */
-	I2C_Status = I2C_TransferInit(I2C1, &seq);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
 
-	while (I2C_Status == i2cTransferInProgress){
-		I2C_Status = I2C_Transfer(I2C1);
+	while (ret == i2cTransferInProgress){
+		ret = I2C_Transfer(I2C1);
 	}
 
 	return result = ((uint16_t)data[1] << 8 | data[0]) * 8;  // uV.h.
 }
+
 uint16_t STC3105_GET_COUNTER()
 {
 	uint16_t data1 = 0;
-
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-
-	STC3105_INIT_I2C();
-
-	uint8_t regid[1];
+	uint8_t regid;
 	uint8_t data[2];
 
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;
-	/* Select register to be read */
-	regid[0] = REG_COUNTER_LOW; seq.buf[0].data = regid; seq.buf[0].len = 1;
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = STC3105_R_COUNTER_LOW;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-	/* Select location/length to place register */
-	/* Only 1 byte reg, clear upper 8 bits */
-	data[0] = 0;data[1] = 0;
+	data[0] = 0;
+	data[1] = 0;
+	i2cTransfert.buf[1].data=data;
+	i2cTransfert.buf[1].len = 2;
 
-	seq.buf[1].data=data; seq.buf[1].len = 2;
-	/* Do a polled transfer */
-	I2C_Status = I2C_TransferInit(I2C1, &seq);
-
-	while (I2C_Status == i2cTransferInProgress){
-		I2C_Status = I2C_Transfer(I2C1);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	while (ret == i2cTransferInProgress){
+		ret = I2C_Transfer(I2C1);
 	}
 
 	data1 = (uint16_t)data[1] << 8 | data[0];
-
 	return data1;
 }
+
 uint16_t STC3105_GET_ALARM_SOC()
 {
-	uint8_t value1=0;
-	uint8_t value2=0;
 	uint16_t val;
+	uint8_t regid;
+	uint8_t data[2];
 
-	I2C_TransferReturn_TypeDef I2C_Status;
-	I2C_TransferSeq_TypeDef seq;
-	STC3105_INIT_I2C();
-	uint8_t regid[1];	uint8_t data[2];
+	i2cTransfert.addr = STC3105_Address;
+	i2cTransfert.flags = I2C_FLAG_WRITE_READ;
+	regid = STC3105_R_ALARM_SOC_LOW;
+	i2cTransfert.buf[0].data = &regid;
+	i2cTransfert.buf[0].len = 1;
 
-	seq.addr = STC3105_Address;
-	seq.flags = I2C_FLAG_WRITE_READ;/* Select register to be read */
-	regid[0] = REG_ALARM_SOC_LOW; seq.buf[0].data = regid; seq.buf[0].len = 1;
-
-			/* Select location/length to place register */
-			/* Only 1 byte reg, clear upper 8 bits */
 	data[0] = 0;
+	i2cTransfert.buf[1].data=data;
+	i2cTransfert.buf[1].len = 2;
 
-	seq.buf[1].data=data;seq.buf[1].len = 2;
-			  /* Do a polled transfer */
-	I2C_Status = I2C_TransferInit(I2C1, &seq);
-	while (I2C_Status == i2cTransferInProgress){
-		  I2C_Status = I2C_Transfer(I2C1);
+	ret = I2C_TransferInit(I2C1, &i2cTransfert);
+	while (ret == i2cTransferInProgress){
+		  ret = I2C_Transfer(I2C1);
 	}
 
 	val = (uint16_t)data[1]<<8 | data[0];
@@ -356,7 +319,6 @@ uint16_t STC3105_GET_ALARM_SOC()
 
 uint16_t STC3105_GET_SOC_BASE()
 {
-	uint16_t data =0;
 	uint8_t values1 = 0;
 	uint8_t values2 = 0;
 
@@ -389,7 +351,7 @@ void STC3105_Init_ConfigMode(uint8_t reg, uint8_t config)
 	while ( status == i2cTransferInProgress) {
 		      status = I2C_Transfer(I2C1);*/
 
-	STC3105_WriteRegister(reg,config);
+	//STC3105_WriteRegister(reg,config);
 	//write_byte(REG_CTRL,Address_STC3105,IO_DATA_ALM_ON);
 }
 void STC3105_SET_CURRENT_THRES(uint8_t current_thres)
@@ -398,11 +360,9 @@ void STC3105_SET_CURRENT_THRES(uint8_t current_thres)
 }
 void STC3105_SET_ALARM_SOC(uint16_t value)
 {
-	uint8_t values1 = 0xFF & value;
-	uint8_t values2 = value >>8;
 
-	//write_byte(REG_ALARM_SOC_HIGH,Address_STC3105,values2);
-	//write_byte(REG_ALARM_SOC_LOW, Address_STC3105,values1);
+
+
 }
 void STC3105_RESET_ALM()
 {
@@ -414,8 +374,6 @@ void STC3105_RESET_ALM()
 }
 void STC3105_SET_SOC_BASE(uint16_t value)
 {
-	uint8_t value1 = 0xFF&value;
-	uint8_t value2 = value >> 8;
 
 	//write_byte(REG_SOC_BASE_HIGH,Address_STC3105,value2);
 	//write_byte(REG_SOC_BASE_LOW,Address_STC3105,value1);

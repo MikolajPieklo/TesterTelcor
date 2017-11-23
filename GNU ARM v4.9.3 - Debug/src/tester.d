@@ -69,9 +69,9 @@ src/tester.o: ../src/tester.c ../src/tester.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v1.1\app\mcu_example\efm32gg_stk3700\usbdcomposite\msddmedia.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v1.1\app\mcu_example\efm32gg_stk3700\usbdcomposite\vud.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\kit\common\drivers\cdc.h \
- ../src/descriptors.h ../src/MCP23017.h \
+ ../src/descriptors.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_i2c.h \
- ../src/ADS1247.h ../src/RS485.h
+ ../src/MCP23017.h ../src/ADS1247.h ../src/RS485.h
 
 ../src/tester.h:
 
@@ -217,9 +217,9 @@ c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v1.1\hardware\
 
 ../src/descriptors.h:
 
-../src/MCP23017.h:
-
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v1.1\platform\emlib\inc\em_i2c.h:
+
+../src/MCP23017.h:
 
 ../src/ADS1247.h:
 
