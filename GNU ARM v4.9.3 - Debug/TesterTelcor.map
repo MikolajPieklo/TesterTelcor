@@ -1,0 +1,2996 @@
+Archive member included because of file (symbol)
+
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                              ./src/main.o (__aeabi_dsub)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+                              ./src/ADC_EFM32.o (__aeabi_dmul)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpdf2.o)
+                              ./src/tester.o (__aeabi_dcmple)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_truncdfsf2.o)
+                              ./src/ADC_EFM32.o (__aeabi_d2f)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                              ./src/main.o (__aeabi_fsub)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                              ./src/main.o (__aeabi_fmul)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+                              ./src/main.o (__aeabi_fcmpeq)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                              ./src/main.o (__aeabi_f2uiz)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+                              ./emlib/em_usart.o (__aeabi_uldivmod)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_dvmd_tls.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o) (__divdi3)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o) (__udivdi3)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+                              ./Drivers/segmentlcd.o (abs)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+                              ./BSP/bsp_stk.o (memcpy)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+                              c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+                              ./src/main.o (modf)
+c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
+                              ./Drivers/segmentlcd.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+Modbus_Buffor_Tab   0x14              ./src/Modbus.o
+flaga_zadan         0x7               ./src/main.o
+U10                 0x9               ./src/ADC_EFM32.o
+flagai2c_timeout    0x1               ./src/ADC_EFM32.o
+PP_ADC_RDY          0x1               ./src/ADC_EFM32.o
+flashStatus         0x8               ./src/msddmedia.o
+U17                 0x9               ./src/ADC_EFM32.o
+tmp_profile         0xf               ./src/tester.o
+Tab_zadan           0x31              ./src/main.o
+Modbus_Register     0xc8              ./src/Modbus.o
+Tester              0x20              ./src/ADC_EFM32.o
+U30                 0x9               ./src/ADC_EFM32.o
+i2cTransfertSTC3105
+                    0x14              ./src/STC3105.o
+profile1            0xf               ./src/tester.o
+PP_FLAGS            0x1               ./src/ADC_EFM32.o
+bufferodbior        0xf               ./src/main.o
+dmaControlBlock     0x200             ./Drivers/dmactrl.o
+U18                 0x9               ./src/ADC_EFM32.o
+profile2            0xf               ./src/main.o
+aktualne_zadanie    0x1               ./src/main.o
+statusSTC3105       0x1               ./src/STC3105.o
+aktualne_podzadanie
+                    0x1               ./src/main.o
+RxBuffor            0xf               ./src/RS485.o
+TxBuffor            0xf               ./src/RS485.o
+index_zadan         0x1               ./src/main.o
+msTicks             0x4               ./src/main.o
+U22                 0x9               ./src/ADC_EFM32.o
+index_podzanan      0x1               ./src/main.o
+ret                 0x1               ./src/ADC_EFM32.o
+clock               0x1               ./src/ADC_EFM32.o
+i2cTransfert        0x14              ./src/ADC_EFM32.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .data          0x00000000        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 ./BSP/bsp_bcc.o
+ .data          0x00000000        0x0 ./BSP/bsp_bcc.o
+ .bss           0x00000000        0x0 ./BSP/bsp_bcc.o
+ .bss.rxByteCount
+                0x00000000        0x4 ./BSP/bsp_bcc.o
+ .bss.txByteCount
+                0x00000000        0x4 ./BSP/bsp_bcc.o
+ .text.BSP_BccDeInit
+                0x00000000       0x40 ./BSP/bsp_bcc.o
+ .rodata        0x00000000       0x18 ./BSP/bsp_bcc.o
+ .text.BSP_BccInit
+                0x00000000       0x74 ./BSP/bsp_bcc.o
+ .text.BSP_BccPacketReceive
+                0x00000000       0xac ./BSP/bsp_bcc.o
+ .text.BSP_BccPacketSend
+                0x00000000       0x68 ./BSP/bsp_bcc.o
+ .text.BSP_BccPinsEnable
+                0x00000000       0x80 ./BSP/bsp_bcc.o
+ .text.RxByte   0x00000000       0x3c ./BSP/bsp_bcc.o
+ .text.TxByte   0x00000000       0x3c ./BSP/bsp_bcc.o
+ .debug_info    0x00000000      0x847 ./BSP/bsp_bcc.o
+ .debug_abbrev  0x00000000      0x1c6 ./BSP/bsp_bcc.o
+ .debug_loc     0x00000000      0x224 ./BSP/bsp_bcc.o
+ .debug_aranges
+                0x00000000       0x50 ./BSP/bsp_bcc.o
+ .debug_ranges  0x00000000       0x40 ./BSP/bsp_bcc.o
+ .debug_line    0x00000000      0x3e8 ./BSP/bsp_bcc.o
+ .debug_str     0x00000000      0xaa1 ./BSP/bsp_bcc.o
+ .comment       0x00000000       0x71 ./BSP/bsp_bcc.o
+ .debug_frame   0x00000000      0x114 ./BSP/bsp_bcc.o
+ .ARM.attributes
+                0x00000000       0x33 ./BSP/bsp_bcc.o
+ .text          0x00000000        0x0 ./BSP/bsp_stk.o
+ .data          0x00000000        0x0 ./BSP/bsp_stk.o
+ .bss           0x00000000        0x0 ./BSP/bsp_stk.o
+ .text.BSP_Disable
+                0x00000000       0x14 ./BSP/bsp_stk.o
+ .rodata        0x00000000       0x50 ./BSP/bsp_stk.o
+ .text.BSP_EbiInit
+                0x00000000      0x118 ./BSP/bsp_stk.o
+ .text.BSP_EbiDeInit
+                0x00000000       0x10 ./BSP/bsp_stk.o
+ .text.BSP_IOExpGetDeviceId
+                0x00000000       0x10 ./BSP/bsp_stk.o
+ .text.BSP_Init
+                0x00000000       0x20 ./BSP/bsp_stk.o
+ .text.BSP_PeripheralAccess
+                0x00000000       0x20 ./BSP/bsp_stk.o
+ .text.BSP_CurrentGet
+                0x00000000       0x44 ./BSP/bsp_stk.o
+ .text.BSP_VoltageGet
+                0x00000000       0x44 ./BSP/bsp_stk.o
+ .debug_info    0x00000000      0xacf ./BSP/bsp_stk.o
+ .debug_abbrev  0x00000000      0x1ae ./BSP/bsp_stk.o
+ .debug_loc     0x00000000      0x256 ./BSP/bsp_stk.o
+ .debug_aranges
+                0x00000000       0x58 ./BSP/bsp_stk.o
+ .debug_ranges  0x00000000       0x48 ./BSP/bsp_stk.o
+ .debug_line    0x00000000      0x3c1 ./BSP/bsp_stk.o
+ .debug_str     0x00000000      0xc51 ./BSP/bsp_stk.o
+ .comment       0x00000000       0x71 ./BSP/bsp_stk.o
+ .debug_frame   0x00000000      0x124 ./BSP/bsp_stk.o
+ .ARM.attributes
+                0x00000000       0x33 ./BSP/bsp_stk.o
+ .text          0x00000000        0x0 ./BSP/bsp_stk_leds.o
+ .data          0x00000000        0x0 ./BSP/bsp_stk_leds.o
+ .bss           0x00000000        0x0 ./BSP/bsp_stk_leds.o
+ .text.GPIO_PinOutToggle
+                0x00000000       0x98 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedClear
+                0x00000000       0x44 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedGet
+                0x00000000       0x48 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedSet
+                0x00000000       0x44 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedToggle
+                0x00000000       0x44 ./BSP/bsp_stk_leds.o
+ .text          0x00000000        0x0 ./BSP/bsp_trace.o
+ .data          0x00000000        0x0 ./BSP/bsp_trace.o
+ .bss           0x00000000        0x0 ./BSP/bsp_trace.o
+ .data          0x00000000        0x0 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .bss           0x00000000        0x0 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .text          0x00000000        0x0 ./CMSIS/EFM32GG/system_efm32gg.o
+ .data          0x00000000        0x0 ./CMSIS/EFM32GG/system_efm32gg.o
+ .bss           0x00000000        0x0 ./CMSIS/EFM32GG/system_efm32gg.o
+ .text.SystemHFXOClockSet
+                0x00000000       0x2c ./CMSIS/EFM32GG/system_efm32gg.o
+ .text.SystemLFXOClockSet
+                0x00000000       0x2c ./CMSIS/EFM32GG/system_efm32gg.o
+ .text          0x00000000        0x0 ./Drivers/cdc.o
+ .data          0x00000000        0x0 ./Drivers/cdc.o
+ .bss           0x00000000        0x0 ./Drivers/cdc.o
+ .text          0x00000000        0x0 ./Drivers/dmactrl.o
+ .data          0x00000000        0x0 ./Drivers/dmactrl.o
+ .bss           0x00000000        0x0 ./Drivers/dmactrl.o
+ .text          0x00000000        0x0 ./Drivers/eeprom.o
+ .data          0x00000000        0x0 ./Drivers/eeprom.o
+ .bss           0x00000000        0x0 ./Drivers/eeprom.o
+ .text.EEPROM_AckPoll
+                0x00000000       0x54 ./Drivers/eeprom.o
+ .text.EEPROM_Read
+                0x00000000       0x7c ./Drivers/eeprom.o
+ .text.EEPROM_Write
+                0x00000000       0xd0 ./Drivers/eeprom.o
+ .debug_info    0x00000000      0x448 ./Drivers/eeprom.o
+ .debug_abbrev  0x00000000      0x15e ./Drivers/eeprom.o
+ .debug_loc     0x00000000       0xf2 ./Drivers/eeprom.o
+ .debug_aranges
+                0x00000000       0x30 ./Drivers/eeprom.o
+ .debug_ranges  0x00000000       0x20 ./Drivers/eeprom.o
+ .debug_line    0x00000000      0x2f2 ./Drivers/eeprom.o
+ .debug_str     0x00000000      0x37c ./Drivers/eeprom.o
+ .comment       0x00000000       0x71 ./Drivers/eeprom.o
+ .debug_frame   0x00000000       0x7c ./Drivers/eeprom.o
+ .ARM.attributes
+                0x00000000       0x33 ./Drivers/eeprom.o
+ .text          0x00000000        0x0 ./Drivers/msdd.o
+ .data          0x00000000        0x0 ./Drivers/msdd.o
+ .bss           0x00000000        0x0 ./Drivers/msdd.o
+ .text          0x00000000        0x0 ./Drivers/segmentlcd.o
+ .data          0x00000000        0x0 ./Drivers/segmentlcd.o
+ .bss           0x00000000        0x0 ./Drivers/segmentlcd.o
+ .text.LCD_Enable
+                0x00000000       0x38 ./Drivers/segmentlcd.o
+ .rodata.EFM_Numbers
+                0x00000000       0x22 ./Drivers/segmentlcd.o
+ .rodata.Blocks
+                0x00000000        0x8 ./Drivers/segmentlcd.o
+ .rodata.signIndex
+                0x00000000        0x2 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_AllOn
+                0x00000000       0xcc ./Drivers/segmentlcd.o
+ .text.SegmentLCD_ARing
+                0x00000000       0x54 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_Battery
+                0x00000000       0x78 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_Block
+                0x00000000       0x30 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_Disable
+                0x00000000       0x28 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_EnergyMode
+                0x00000000       0x50 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_LowerHex
+                0x00000000       0x98 ./Drivers/segmentlcd.o
+ .rodata        0x00000000        0x8 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_LowerNumber
+                0x00000000       0xc4 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_Number
+                0x00000000      0x124 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_NumberOff
+                0x00000000       0x50 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_UnsignedHex
+                0x00000000       0xc8 ./Drivers/segmentlcd.o
+ .text.displayBlock
+                0x00000000      0x114 ./Drivers/segmentlcd.o
+ .text          0x00000000        0x0 ./emlib/em_adc.o
+ .data          0x00000000        0x0 ./emlib/em_adc.o
+ .bss           0x00000000        0x0 ./emlib/em_adc.o
+ .text.ADC_InitScan
+                0x00000000       0xbc ./emlib/em_adc.o
+ .text.ADC_Reset
+                0x00000000       0x54 ./emlib/em_adc.o
+ .text          0x00000000        0x0 ./emlib/em_assert.o
+ .data          0x00000000        0x0 ./emlib/em_assert.o
+ .bss           0x00000000        0x0 ./emlib/em_assert.o
+ .debug_line    0x00000000        0x0 ./emlib/em_assert.o
+ .debug_str     0x00000000      0x13a ./emlib/em_assert.o
+ .comment       0x00000000       0x71 ./emlib/em_assert.o
+ .ARM.attributes
+                0x00000000       0x33 ./emlib/em_assert.o
+ .text          0x00000000        0x0 ./emlib/em_cmu.o
+ .data          0x00000000        0x0 ./emlib/em_cmu.o
+ .bss           0x00000000        0x0 ./emlib/em_cmu.o
+ .text.BUS_RegMaskedWrite
+                0x00000000       0x28 ./emlib/em_cmu.o
+ .text.CMU_Log2ToDiv
+                0x00000000       0x1c ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCOBandGet
+                0x00000000       0x20 ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCOBandSet
+                0x00000000       0xb8 ./emlib/em_cmu.o
+ .text.CMU_Calibrate
+                0x00000000       0xac ./emlib/em_cmu.o
+ .text.CMU_CalibrateConfig
+                0x00000000       0xfc ./emlib/em_cmu.o
+ .text.CMU_CalibrateCountGet
+                0x00000000       0x38 ./emlib/em_cmu.o
+ .text.CMU_ClockDivGet
+                0x00000000      0x194 ./emlib/em_cmu.o
+ .text.CMU_FreezeEnable
+                0x00000000       0x38 ./emlib/em_cmu.o
+ .text.CMU_HFRCOBandGet
+                0x00000000       0x20 ./emlib/em_cmu.o
+ .text.CMU_HFRCOBandSet
+                0x00000000       0xec ./emlib/em_cmu.o
+ .text.CMU_HFRCOStartupDelayGet
+                0x00000000       0x1c ./emlib/em_cmu.o
+ .text.CMU_HFRCOStartupDelaySet
+                0x00000000       0x40 ./emlib/em_cmu.o
+ .text.CMU_HFXOInit
+                0x00000000       0x6c ./emlib/em_cmu.o
+ .text.CMU_LCDClkFDIVGet
+                0x00000000       0x1c ./emlib/em_cmu.o
+ .text.CMU_LFXOInit
+                0x00000000       0x8c ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningGet
+                0x00000000       0x5c ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningSet
+                0x00000000       0xb0 ./emlib/em_cmu.o
+ .text.CMU_PCNTClockExternalGet
+                0x00000000       0x60 ./emlib/em_cmu.o
+ .text.CMU_PCNTClockExternalSet
+                0x00000000       0x48 ./emlib/em_cmu.o
+ .text          0x00000000        0x0 ./emlib/em_core.o
+ .data          0x00000000        0x0 ./emlib/em_core.o
+ .bss           0x00000000        0x0 ./emlib/em_core.o
+ .text.NVIC_GetPriority
+                0x00000000       0x50 ./emlib/em_core.o
+ .text.CORE_CriticalDisableIrq
+                0x00000000       0x10 ./emlib/em_core.o
+ .text.CORE_CriticalEnableIrq
+                0x00000000       0x10 ./emlib/em_core.o
+ .text.CORE_EnterCritical
+                0x00000000       0x20 ./emlib/em_core.o
+ .text.CORE_ExitCritical
+                0x00000000       0x1c ./emlib/em_core.o
+ .text.CORE_YieldCritical
+                0x00000000       0x24 ./emlib/em_core.o
+ .text.CORE_YieldAtomic
+                0x00000000       0x24 ./emlib/em_core.o
+ .text.CORE_EnterNvicMask
+                0x00000000       0x38 ./emlib/em_core.o
+ .text.CORE_NvicDisableMask
+                0x00000000       0x2c ./emlib/em_core.o
+ .text.CORE_NvicEnableMask
+                0x00000000       0x2c ./emlib/em_core.o
+ .text.CORE_YieldNvicMask
+                0x00000000       0x88 ./emlib/em_core.o
+ .rodata        0x00000000       0x13 ./emlib/em_core.o
+ .text.CORE_NvicMaskSetIRQ
+                0x00000000       0x60 ./emlib/em_core.o
+ .text.CORE_NvicMaskClearIRQ
+                0x00000000       0x60 ./emlib/em_core.o
+ .text.CORE_InIrqContext
+                0x00000000       0x24 ./emlib/em_core.o
+ .text.CORE_IrqIsBlocked
+                0x00000000       0xb8 ./emlib/em_core.o
+ .text.CORE_IrqIsDisabled
+                0x00000000       0x28 ./emlib/em_core.o
+ .text.CORE_GetNvicEnabledMask
+                0x00000000       0x2c ./emlib/em_core.o
+ .text.CORE_GetNvicMaskDisableState
+                0x00000000       0x54 ./emlib/em_core.o
+ .text.CORE_NvicIRQDisabled
+                0x00000000       0x60 ./emlib/em_core.o
+ .text.CORE_GetNvicRamTableHandler
+                0x00000000       0x48 ./emlib/em_core.o
+ .text.CORE_SetNvicRamTableHandler
+                0x00000000       0x4c ./emlib/em_core.o
+ .text.CORE_InitNvicVectorTable
+                0x00000000      0x10c ./emlib/em_core.o
+ .text          0x00000000        0x0 ./emlib/em_dma.o
+ .data          0x00000000        0x0 ./emlib/em_dma.o
+ .bss           0x00000000        0x0 ./emlib/em_dma.o
+ .text.DMA_ActivateAuto
+                0x00000000       0x70 ./emlib/em_dma.o
+ .text.DMA_ActivatePingPong
+                0x00000000       0x94 ./emlib/em_dma.o
+ .text.DMA_ActivateScatterGather
+                0x00000000      0x17c ./emlib/em_dma.o
+ .text.DMA_CfgLoop
+                0x00000000       0x7c ./emlib/em_dma.o
+ .text.DMA_CfgRect
+                0x00000000       0x84 ./emlib/em_dma.o
+ .text.DMA_CfgDescrScatterGather
+                0x00000000       0xf4 ./emlib/em_dma.o
+ .text.DMA_ChannelEnable
+                0x00000000       0x4c ./emlib/em_dma.o
+ .text.DMA_ChannelEnabled
+                0x00000000       0x40 ./emlib/em_dma.o
+ .text.DMA_ChannelRequestEnable
+                0x00000000       0x4c ./emlib/em_dma.o
+ .text.DMA_RefreshPingPong
+                0x00000000      0x11c ./emlib/em_dma.o
+ .text          0x00000000        0x0 ./emlib/em_ebi.o
+ .data          0x00000000        0x0 ./emlib/em_ebi.o
+ .bss           0x00000000        0x0 ./emlib/em_ebi.o
+ .text.EBI_TFTFrameBaseSet
+                0x00000000       0x1c ./emlib/em_ebi.o
+ .text.BUS_RegBitWrite
+                0x00000000       0x2c ./emlib/em_ebi.o
+ .text.EBI_RouteBitWrite
+                0x00000000       0x20 ./emlib/em_ebi.o
+ .text.EBI_Init
+                0x00000000      0x370 ./emlib/em_ebi.o
+ .text.EBI_Disable
+                0x00000000       0x1c ./emlib/em_ebi.o
+ .text.EBI_BankEnable
+                0x00000000       0x70 ./emlib/em_ebi.o
+ .rodata        0x00000000       0x12 ./emlib/em_ebi.o
+ .text.EBI_BankAddress
+                0x00000000      0x104 ./emlib/em_ebi.o
+ .text.EBI_ChipSelectEnable
+                0x00000000       0x64 ./emlib/em_ebi.o
+ .text.EBI_PolaritySet
+                0x00000000      0x100 ./emlib/em_ebi.o
+ .text.EBI_ReadTimingSet
+                0x00000000       0x70 ./emlib/em_ebi.o
+ .text.EBI_WriteTimingSet
+                0x00000000       0x70 ./emlib/em_ebi.o
+ .text.EBI_AddressTimingSet
+                0x00000000       0x58 ./emlib/em_ebi.o
+ .text.EBI_TFTInit
+                0x00000000      0x100 ./emlib/em_ebi.o
+ .text.EBI_TFTSizeSet
+                0x00000000       0x50 ./emlib/em_ebi.o
+ .text.EBI_TFTHPorchSet
+                0x00000000       0x60 ./emlib/em_ebi.o
+ .text.EBI_TFTVPorchSet
+                0x00000000       0x60 ./emlib/em_ebi.o
+ .text.EBI_TFTTimingSet
+                0x00000000       0x78 ./emlib/em_ebi.o
+ .text.EBI_BankReadTimingConfig
+                0x00000000      0x100 ./emlib/em_ebi.o
+ .text.EBI_BankReadTimingSet
+                0x00000000       0xe8 ./emlib/em_ebi.o
+ .text.EBI_BankWriteTimingConfig
+                0x00000000       0xc8 ./emlib/em_ebi.o
+ .text.EBI_BankWriteTimingSet
+                0x00000000       0xe8 ./emlib/em_ebi.o
+ .text.EBI_BankAddressTimingConfig
+                0x00000000       0x94 ./emlib/em_ebi.o
+ .text.EBI_BankAddressTimingSet
+                0x00000000       0xd0 ./emlib/em_ebi.o
+ .text.EBI_BankPolaritySet
+                0x00000000      0x188 ./emlib/em_ebi.o
+ .text.EBI_BankByteLaneEnable
+                0x00000000       0x88 ./emlib/em_ebi.o
+ .text.EBI_AltMapEnable
+                0x00000000       0x20 ./emlib/em_ebi.o
+ .debug_info    0x00000000     0x10f9 ./emlib/em_ebi.o
+ .debug_abbrev  0x00000000      0x1e2 ./emlib/em_ebi.o
+ .debug_loc     0x00000000      0x82c ./emlib/em_ebi.o
+ .debug_aranges
+                0x00000000       0xe8 ./emlib/em_ebi.o
+ .debug_ranges  0x00000000       0xd8 ./emlib/em_ebi.o
+ .debug_line    0x00000000      0x71e ./emlib/em_ebi.o
+ .debug_str     0x00000000      0xe0c ./emlib/em_ebi.o
+ .comment       0x00000000       0x71 ./emlib/em_ebi.o
+ .debug_frame   0x00000000      0x3c0 ./emlib/em_ebi.o
+ .ARM.attributes
+                0x00000000       0x33 ./emlib/em_ebi.o
+ .text          0x00000000        0x0 ./emlib/em_emu.o
+ .data          0x00000000        0x0 ./emlib/em_emu.o
+ .bss           0x00000000        0x0 ./emlib/em_emu.o
+ .text.SystemCoreClockUpdate
+                0x00000000        0xc ./emlib/em_emu.o
+ .text.BUS_RegBitWrite
+                0x00000000       0x2c ./emlib/em_emu.o
+ .text.EMU_BUPinEnable
+                0x00000000       0x20 ./emlib/em_emu.o
+ .text.EMU_Unlock
+                0x00000000       0x18 ./emlib/em_emu.o
+ .text.CMU_Lock
+                0x00000000       0x18 ./emlib/em_emu.o
+ .text.CMU_Unlock
+                0x00000000       0x1c ./emlib/em_emu.o
+ .text.emState  0x00000000       0xd0 ./emlib/em_emu.o
+ .text.getErrataFixEmuE107En
+                0x00000000       0x64 ./emlib/em_emu.o
+ .text.EMU_EnterEM2
+                0x00000000       0x8c ./emlib/em_emu.o
+ .text.EMU_EnterEM3
+                0x00000000       0xb4 ./emlib/em_emu.o
+ .text.EMU_Save
+                0x00000000        0xc ./emlib/em_emu.o
+ .text.EMU_Restore
+                0x00000000        0xc ./emlib/em_emu.o
+ .text.EMU_EnterEM4
+                0x00000000       0x50 ./emlib/em_emu.o
+ .text.EMU_MemPwrDown
+                0x00000000       0x20 ./emlib/em_emu.o
+ .text.EMU_RamPowerDown
+                0x00000000       0x7c ./emlib/em_emu.o
+ .text.EMU_UpdateOscConfig
+                0x00000000        0xc ./emlib/em_emu.o
+ .text.EMU_EM23Init
+                0x00000000       0x34 ./emlib/em_emu.o
+ .text.EMU_EM4Init
+                0x00000000       0x50 ./emlib/em_emu.o
+ .text.EMU_BUPDInit
+                0x00000000       0xd4 ./emlib/em_emu.o
+ .rodata        0x00000000       0x12 ./emlib/em_emu.o
+ .text.EMU_BUThresholdSet
+                0x00000000       0x6c ./emlib/em_emu.o
+ .text.EMU_BUThresRangeSet
+                0x00000000       0x70 ./emlib/em_emu.o
+ .bss.cmuStatus.5505
+                0x00000000        0x4 ./emlib/em_emu.o
+ .bss.hfClock.5506
+                0x00000000        0x1 ./emlib/em_emu.o
+ .debug_info    0x00000000     0x1043 ./emlib/em_emu.o
+ .debug_abbrev  0x00000000      0x279 ./emlib/em_emu.o
+ .debug_loc     0x00000000      0x624 ./emlib/em_emu.o
+ .debug_aranges
+                0x00000000       0xc0 ./emlib/em_emu.o
+ .debug_ranges  0x00000000       0xb0 ./emlib/em_emu.o
+ .debug_line    0x00000000      0x59e ./emlib/em_emu.o
+ .debug_str     0x00000000      0xbf5 ./emlib/em_emu.o
+ .comment       0x00000000       0x71 ./emlib/em_emu.o
+ .debug_frame   0x00000000      0x2f0 ./emlib/em_emu.o
+ .ARM.attributes
+                0x00000000       0x33 ./emlib/em_emu.o
+ .text          0x00000000        0x0 ./emlib/em_gpio.o
+ .data          0x00000000        0x0 ./emlib/em_gpio.o
+ .bss           0x00000000        0x0 ./emlib/em_gpio.o
+ .text.BUS_RegBitWrite
+                0x00000000       0x2c ./emlib/em_gpio.o
+ .text.BUS_RegMaskedWrite
+                0x00000000       0x28 ./emlib/em_gpio.o
+ .text.GPIO_EM4SetPinRetention
+                0x00000000       0x40 ./emlib/em_gpio.o
+ .text.GPIO_DbgLocationSet
+                0x00000000       0x3c ./emlib/em_gpio.o
+ .text.GPIO_DriveModeSet
+                0x00000000       0x78 ./emlib/em_gpio.o
+ .text.GPIO_ExtIntConfig
+                0x00000000      0x114 ./emlib/em_gpio.o
+ .text.GPIO_PinModeGet
+                0x00000000       0xcc ./emlib/em_gpio.o
+ .text.GPIO_EM4EnablePinWakeup
+                0x00000000       0x84 ./emlib/em_gpio.o
+ .text          0x00000000        0x0 ./emlib/em_i2c.o
+ .data          0x00000000        0x0 ./emlib/em_i2c.o
+ .bss           0x00000000        0x0 ./emlib/em_i2c.o
+ .text.I2C_BusFreqGet
+                0x00000000       0x44 ./emlib/em_i2c.o
+ .text.I2C_Enable
+                0x00000000       0x48 ./emlib/em_i2c.o
+ .text          0x00000000        0x0 ./emlib/em_lcd.o
+ .data          0x00000000        0x0 ./emlib/em_lcd.o
+ .bss           0x00000000        0x0 ./emlib/em_lcd.o
+ .text.LCD_AnimEnable
+                0x00000000       0x38 ./emlib/em_lcd.o
+ .text.LCD_FrameCountEnable
+                0x00000000       0x38 ./emlib/em_lcd.o
+ .text.LCD_UpdateCtrl
+                0x00000000       0x28 ./emlib/em_lcd.o
+ .text.LCD_FrameCountInit
+                0x00000000       0x68 ./emlib/em_lcd.o
+ .text.LCD_AnimInit
+                0x00000000       0x9c ./emlib/em_lcd.o
+ .text.LCD_ContrastSet
+                0x00000000       0x38 ./emlib/em_lcd.o
+ .text.LCD_BiasSegmentSet
+                0x00000000      0x11c ./emlib/em_lcd.o
+ .text.LCD_BiasComSet
+                0x00000000       0x50 ./emlib/em_lcd.o
+ .text          0x00000000        0x0 ./emlib/em_msc.o
+ .data          0x00000000        0x0 ./emlib/em_msc.o
+ .bss           0x00000000        0x0 ./emlib/em_msc.o
+ .text.MSC_ExecConfigSet
+                0x00000000       0xd8 ./emlib/em_msc.o
+ .text          0x00000000        0x0 ./emlib/em_system.o
+ .data          0x00000000        0x0 ./emlib/em_system.o
+ .bss           0x00000000        0x0 ./emlib/em_system.o
+ .text.SYSTEM_GetCalibrationValue
+                0x00000000       0x5c ./emlib/em_system.o
+ .text          0x00000000        0x0 ./emlib/em_timer.o
+ .data          0x00000000        0x0 ./emlib/em_timer.o
+ .bss           0x00000000        0x0 ./emlib/em_timer.o
+ .text.TIMER_EnableDTI
+                0x00000000       0x4c ./emlib/em_timer.o
+ .text.TIMER_GetDTIFault
+                0x00000000       0x30 ./emlib/em_timer.o
+ .text.TIMER_ClearDTIFault
+                0x00000000       0x34 ./emlib/em_timer.o
+ .text.TIMER_InitDTI
+                0x00000000      0x11c ./emlib/em_timer.o
+ .text.TIMER_Reset
+                0x00000000       0xbc ./emlib/em_timer.o
+ .text          0x00000000        0x0 ./emlib/em_usart.o
+ .data          0x00000000        0x0 ./emlib/em_usart.o
+ .bss           0x00000000        0x0 ./emlib/em_usart.o
+ .text.USART_BaudrateCalc
+                0x00000000      0x138 ./emlib/em_usart.o
+ .text.USART_BaudrateGet
+                0x00000000       0x50 ./emlib/em_usart.o
+ .text.USARTn_InitIrDA
+                0x00000000       0x88 ./emlib/em_usart.o
+ .text.USART_InitI2s
+                0x00000000       0xa0 ./emlib/em_usart.o
+ .text.USART_InitPrsTrigger
+                0x00000000       0x60 ./emlib/em_usart.o
+ .text.USART_Rx
+                0x00000000       0x28 ./emlib/em_usart.o
+ .text.USART_RxDouble
+                0x00000000       0x28 ./emlib/em_usart.o
+ .text.USART_RxDoubleExt
+                0x00000000       0x28 ./emlib/em_usart.o
+ .text.USART_RxExt
+                0x00000000       0x28 ./emlib/em_usart.o
+ .text.USART_Tx
+                0x00000000       0x2c ./emlib/em_usart.o
+ .text.USART_TxDouble
+                0x00000000       0x2c ./emlib/em_usart.o
+ .text.USART_TxDoubleExt
+                0x00000000       0x28 ./emlib/em_usart.o
+ .text.USART_TxExt
+                0x00000000       0x2c ./emlib/em_usart.o
+ .text          0x00000000        0x0 ./emusb/em_usbd.o
+ .data          0x00000000        0x0 ./emusb/em_usbd.o
+ .bss           0x00000000        0x0 ./emusb/em_usbd.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x34 ./emusb/em_usbd.o
+ .text.USBHAL_DisablePhyPins
+                0x00000000       0x18 ./emusb/em_usbd.o
+ .text.USBHAL_DisableUsbInt
+                0x00000000       0x18 ./emusb/em_usbd.o
+ .text.USBDHAL_DeactivateEp
+                0x00000000       0x6c ./emusb/em_usbd.o
+ .text.USBD_AbortEp
+                0x00000000       0x30 ./emusb/em_usbd.o
+ .data.stateNames
+                0x00000000       0x20 ./emusb/em_usbd.o
+ .text.USBD_AbortAllTransfers
+                0x00000000       0x20 ./emusb/em_usbd.o
+ .text.USBD_AbortTransfer
+                0x00000000       0xc0 ./emusb/em_usbd.o
+ .text.USBD_Connect
+                0x00000000       0x1c ./emusb/em_usbd.o
+ .text.USBD_Disconnect
+                0x00000000       0x1c ./emusb/em_usbd.o
+ .text.USBD_EpIsBusy
+                0x00000000       0x44 ./emusb/em_usbd.o
+ .text.USBD_GetUsbStateName
+                0x00000000       0x2c ./emusb/em_usbd.o
+ .text.USBD_RemoteWakeup
+                0x00000000       0x4c ./emusb/em_usbd.o
+ .text.USBD_SafeToEnterEM2
+                0x00000000       0x24 ./emusb/em_usbd.o
+ .text.USBD_Stop
+                0x00000000       0x34 ./emusb/em_usbd.o
+ .text          0x00000000        0x0 ./emusb/em_usbdch9.o
+ .data          0x00000000        0x0 ./emusb/em_usbdch9.o
+ .bss           0x00000000        0x0 ./emusb/em_usbdch9.o
+ .text          0x00000000        0x0 ./emusb/em_usbdep.o
+ .data          0x00000000        0x0 ./emusb/em_usbdep.o
+ .bss           0x00000000        0x0 ./emusb/em_usbdep.o
+ .text          0x00000000        0x0 ./emusb/em_usbdint.o
+ .data          0x00000000        0x0 ./emusb/em_usbdint.o
+ .bss           0x00000000        0x0 ./emusb/em_usbdint.o
+ .text.USBDHAL_ClearRemoteWakeup
+                0x00000000       0x2c ./emusb/em_usbdint.o
+ .text.USBDHAL_SetRemoteWakeup
+                0x00000000       0x30 ./emusb/em_usbdint.o
+ .text.USBDINT_RemoteWakeup
+                0x00000000      0x1b8 ./emusb/em_usbdint.o
+ .text          0x00000000        0x0 ./emusb/em_usbhal.o
+ .data          0x00000000        0x0 ./emusb/em_usbhal.o
+ .bss           0x00000000        0x0 ./emusb/em_usbhal.o
+ .rodata        0x00000000      0x15d ./emusb/em_usbhal.o
+ .rodata.errMsg
+                0x00000000       0x44 ./emusb/em_usbhal.o
+ .text.USB_GetErrorMsgString
+                0x00000000       0x30 ./emusb/em_usbhal.o
+ .text.USBDHAL_Connect
+                0x00000000       0x2c ./emusb/em_usbhal.o
+ .text.USBDHAL_Disconnect
+                0x00000000       0x30 ./emusb/em_usbhal.o
+ .text.USBDHAL_AbortEpIn
+                0x00000000       0xf0 ./emusb/em_usbhal.o
+ .text.USBDHAL_AbortEpOut
+                0x00000000      0x14c ./emusb/em_usbhal.o
+ .text          0x00000000        0x0 ./emusb/em_usbtimer.o
+ .data          0x00000000        0x0 ./emusb/em_usbtimer.o
+ .bss           0x00000000        0x0 ./emusb/em_usbtimer.o
+ .text          0x00000000        0x0 ./src/ADC_EFM32.o
+ .data          0x00000000        0x0 ./src/ADC_EFM32.o
+ .bss           0x00000000        0x0 ./src/ADC_EFM32.o
+ .text          0x00000000        0x0 ./src/ADS1247.o
+ .data          0x00000000        0x0 ./src/ADS1247.o
+ .bss           0x00000000        0x0 ./src/ADS1247.o
+ .debug_line    0x00000000        0x0 ./src/ADS1247.o
+ .debug_str     0x00000000      0x136 ./src/ADS1247.o
+ .comment       0x00000000       0x71 ./src/ADS1247.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/ADS1247.o
+ .text          0x00000000        0x0 ./src/MCP23017.o
+ .data          0x00000000        0x0 ./src/MCP23017.o
+ .bss           0x00000000        0x0 ./src/MCP23017.o
+ .rodata        0x00000000       0x64 ./src/MCP23017.o
+ .text.GPIO_PinOutSet
+                0x00000000       0x98 ./src/MCP23017.o
+ .text.MCP23017_Init_I2C
+                0x00000000       0x60 ./src/MCP23017.o
+ .text          0x00000000        0x0 ./src/Modbus.o
+ .data          0x00000000        0x0 ./src/Modbus.o
+ .bss           0x00000000        0x0 ./src/Modbus.o
+ .text.ModbusWrite
+                0x00000000       0x44 ./src/Modbus.o
+ .text.Modbus_Main
+                0x00000000      0x1f8 ./src/Modbus.o
+ .text          0x00000000        0x0 ./src/RS485.o
+ .data          0x00000000        0x0 ./src/RS485.o
+ .bss           0x00000000        0x0 ./src/RS485.o
+ .text.ModRTU_CRC
+                0x00000000       0x7c ./src/RS485.o
+ .text.RS485_MM_R00
+                0x00000000      0x190 ./src/RS485.o
+ .text.RS485_MM_R01
+                0x00000000      0x17c ./src/RS485.o
+ .text.RS485_MM_WykonajPomiar
+                0x00000000      0x19c ./src/RS485.o
+ .text.RS485_MM_K01
+                0x00000000      0x1a4 ./src/RS485.o
+ .text.RS485_MM_K02
+                0x00000000      0x1a4 ./src/RS485.o
+ .text.RS485_MM_K04
+                0x00000000      0x1a4 ./src/RS485.o
+ .text.RS485_MM_K05
+                0x00000000      0x1a4 ./src/RS485.o
+ .text          0x00000000        0x0 ./src/STC3105.o
+ .data          0x00000000        0x0 ./src/STC3105.o
+ .bss           0x00000000        0x0 ./src/STC3105.o
+ .text.STC3105_ReadRegister
+                0x00000000       0x78 ./src/STC3105.o
+ .text.STC3105_GET_CURRENT_THRES
+                0x00000000       0x64 ./src/STC3105.o
+ .text.STC3105_GET_ALARM
+                0x00000000       0x64 ./src/STC3105.o
+ .text.STC3105_GET_ALARM_SOC
+                0x00000000       0x80 ./src/STC3105.o
+ .text.STC3105_GET_SOC_BASE
+                0x00000000       0x30 ./src/STC3105.o
+ .text.STC3105_SET_ALARM
+                0x00000000       0x14 ./src/STC3105.o
+ .text.STC3105_SET_CURRENT_THRES
+                0x00000000       0x14 ./src/STC3105.o
+ .text.STC3105_SET_ALARM_SOC
+                0x00000000       0x20 ./src/STC3105.o
+ .text.STC3105_RESET_ALM
+                0x00000000        0xc ./src/STC3105.o
+ .text.STC3105_SET_SOC_BASE
+                0x00000000       0x20 ./src/STC3105.o
+ .text          0x00000000        0x0 ./src/descriptors.o
+ .data          0x00000000        0x0 ./src/descriptors.o
+ .bss           0x00000000        0x0 ./src/descriptors.o
+ .text          0x00000000        0x0 ./src/gpiointerrupt.o
+ .data          0x00000000        0x0 ./src/gpiointerrupt.o
+ .bss           0x00000000        0x0 ./src/gpiointerrupt.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ./src/gpiointerrupt.o
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x34 ./src/gpiointerrupt.o
+ .text.INT_Disable
+                0x00000000       0x2c ./src/gpiointerrupt.o
+ .text.INT_Enable
+                0x00000000       0x3c ./src/gpiointerrupt.o
+ .text.GPIOINT_Init
+                0x00000000       0x20 ./src/gpiointerrupt.o
+ .text.GPIOINT_CallbackRegister
+                0x00000000       0x28 ./src/gpiointerrupt.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text.GPIO_IntEnable
+                0x00000000       0x28 ./src/main.o
+ .text.GPIO_IntConfig
+                0x00000000       0x38 ./src/main.o
+ .text.Delay    0x00000000       0x28 ./src/main.o
+ .text.gpioCallback
+                0x00000000       0x24 ./src/main.o
+ .data.button0message
+                0x00000000        0xd ./src/main.o
+ .data.button1message
+                0x00000000        0xd ./src/main.o
+ .data.MODBUS_CS2_ok
+                0x00000000        0x7 ./src/main.o
+ .data.MODBUS_CS3_ok
+                0x00000000        0x7 ./src/main.o
+ .data.MODBUS_CS4_ok
+                0x00000000        0x7 ./src/main.o
+ .data.MODBUS_CS5_ok
+                0x00000000        0x7 ./src/main.o
+ .text.gpioInit
+                0x00000000       0x48 ./src/main.o
+ .text          0x00000000        0x0 ./src/msddmedia.o
+ .data          0x00000000        0x0 ./src/msddmedia.o
+ .bss           0x00000000        0x0 ./src/msddmedia.o
+ .text          0x00000000        0x0 ./src/myUSB.o
+ .data          0x00000000        0x0 ./src/myUSB.o
+ .bss           0x00000000        0x0 ./src/myUSB.o
+ .text          0x00000000        0x0 ./src/my_timer.o
+ .data          0x00000000        0x0 ./src/my_timer.o
+ .bss           0x00000000        0x0 ./src/my_timer.o
+ .text          0x00000000        0x0 ./src/tester.o
+ .data          0x00000000        0x0 ./src/tester.o
+ .bss           0x00000000        0x0 ./src/tester.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ./src/tester.o
+ .text.TIMER_MaxCount
+                0x00000000       0x18 ./src/tester.o
+ .text.TIMER_IntEnable
+                0x00000000       0x20 ./src/tester.o
+ .text.TIMER_TopSet
+                0x00000000       0x34 ./src/tester.o
+ .text.SEL_SPI1_TC_ON
+                0x00000000       0x30 ./src/tester.o
+ .text.SEL_SPI1_TC_OFF
+                0x00000000       0x30 ./src/tester.o
+ .text.SEL_SPI1_PKSPP_OFF
+                0x00000000       0x30 ./src/tester.o
+ .text.SEL_SPI_SL_ON
+                0x00000000       0x30 ./src/tester.o
+ .text.SEL_SPI_SL_OFF
+                0x00000000       0x30 ./src/tester.o
+ .text.ZAL_TC_PKSPP_OFF
+                0x00000000       0x54 ./src/tester.o
+ .text.Timer2_Configure
+                0x00000000       0x74 ./src/tester.o
+ .text.PP_FormatEEPROM
+                0x00000000       0xcc ./src/tester.o
+ .text.ResetADC
+                0x00000000       0x20 ./src/tester.o
+ .text.PP_INIT_ADC
+                0x00000000      0x138 ./src/tester.o
+ .text.PP_SingleM
+                0x00000000      0x104 ./src/tester.o
+ .text.Tester_Acces_to_PKSPP
+                0x00000000       0x60 ./src/tester.o
+ .text          0x00000000        0x0 ./src/vud.o
+ .data          0x00000000        0x0 ./src/vud.o
+ .bss           0x00000000        0x0 ./src/vud.o
+ .text          0x00000000        0x0 ./src/zadania.o
+ .data          0x00000000        0x0 ./src/zadania.o
+ .bss           0x00000000        0x0 ./src/zadania.o
+ .debug_info    0x00000000      0x16e ./src/zadania.o
+ .debug_abbrev  0x00000000       0x72 ./src/zadania.o
+ .debug_aranges
+                0x00000000       0x18 ./src/zadania.o
+ .debug_line    0x00000000      0x120 ./src/zadania.o
+ .debug_str     0x00000000      0x255 ./src/zadania.o
+ .comment       0x00000000       0x71 ./src/zadania.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/zadania.o
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+ .text          0x00000000       0x30 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000       0x60 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00000000       0x54 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
+ .text          0x00000000        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000      0x2ac c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000       0x34 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .text          0x00000000      0x270 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000000       0x34 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+ .text.abs      0x00000000        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+ .debug_frame   0x00000000       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-abs.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD ./BSP/bsp_bcc.o
+LOAD ./BSP/bsp_stk.o
+LOAD ./BSP/bsp_stk_leds.o
+LOAD ./BSP/bsp_trace.o
+LOAD ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+LOAD ./CMSIS/EFM32GG/system_efm32gg.o
+LOAD ./Drivers/cdc.o
+LOAD ./Drivers/dmactrl.o
+LOAD ./Drivers/eeprom.o
+LOAD ./Drivers/msdd.o
+LOAD ./Drivers/segmentlcd.o
+LOAD ./emlib/em_adc.o
+LOAD ./emlib/em_assert.o
+LOAD ./emlib/em_cmu.o
+LOAD ./emlib/em_core.o
+LOAD ./emlib/em_dma.o
+LOAD ./emlib/em_ebi.o
+LOAD ./emlib/em_emu.o
+LOAD ./emlib/em_gpio.o
+LOAD ./emlib/em_i2c.o
+LOAD ./emlib/em_lcd.o
+LOAD ./emlib/em_msc.o
+LOAD ./emlib/em_system.o
+LOAD ./emlib/em_timer.o
+LOAD ./emlib/em_usart.o
+LOAD ./emusb/em_usbd.o
+LOAD ./emusb/em_usbdch9.o
+LOAD ./emusb/em_usbdep.o
+LOAD ./emusb/em_usbdint.o
+LOAD ./emusb/em_usbhal.o
+LOAD ./emusb/em_usbtimer.o
+LOAD ./src/ADC_EFM32.o
+LOAD ./src/ADS1247.o
+LOAD ./src/MCP23017.o
+LOAD ./src/Modbus.o
+LOAD ./src/RS485.o
+LOAD ./src/STC3105.o
+LOAD ./src/descriptors.o
+LOAD ./src/gpiointerrupt.o
+LOAD ./src/main.o
+LOAD ./src/msddmedia.o
+LOAD ./src/myUSB.o
+LOAD ./src/my_timer.o
+LOAD ./src/tester.o
+LOAD ./src/vud.o
+LOAD ./src/zadania.o
+START GROUP
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+
+.text           0x00000000    0x12e7c
+ *(.vectors)
+ .vectors       0x00000000       0xdc ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+                0x00000000                __Vectors
+                0x000000dc                __Vectors_End = .
+                0x000000dc                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x000000dc                __end__ = .
+ *(.text*)
+ .text          0x000000dc       0x5c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .text          0x00000138       0x74 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x00000138                _start
+                0x00000138                _mainCRTStartup
+ .text.BUS_RegBitRead
+                0x000001ac       0x2c ./BSP/bsp_stk_leds.o
+ .text.GPIO_PinOutClear
+                0x000001d8       0x98 ./BSP/bsp_stk_leds.o
+ .text.GPIO_PinOutGet
+                0x00000270       0x98 ./BSP/bsp_stk_leds.o
+ .text.GPIO_PinOutSet
+                0x00000308       0x98 ./BSP/bsp_stk_leds.o
+ .text.BSP_LedsInit
+                0x000003a0       0x5c ./BSP/bsp_stk_leds.o
+                0x000003a0                BSP_LedsInit
+ .text.BSP_LedsGet
+                0x000003fc       0x68 ./BSP/bsp_stk_leds.o
+                0x000003fc                BSP_LedsGet
+ .text.BSP_LedsSet
+                0x00000464       0x74 ./BSP/bsp_stk_leds.o
+                0x00000464                BSP_LedsSet
+ .text.BSP_TraceSwoSetup
+                0x000004d8      0x114 ./BSP/bsp_trace.o
+                0x000004d8                BSP_TraceSwoSetup
+ .text.BSP_TraceProfilerSetup
+                0x000005ec       0x28 ./BSP/bsp_trace.o
+                0x000005ec                BSP_TraceProfilerSetup
+ .text          0x00000614       0x30 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+                0x00000614                Reset_Handler
+                0x00000640                I2C0_IRQHandler
+                0x00000640                HardFault_Handler
+                0x00000640                LEUART1_IRQHandler
+                0x00000640                USART1_RX_IRQHandler
+                0x00000640                PendSV_Handler
+                0x00000640                NMI_Handler
+                0x00000640                I2C1_IRQHandler
+                0x00000640                TIMER3_IRQHandler
+                0x00000640                USART1_TX_IRQHandler
+                0x00000640                MSC_IRQHandler
+                0x00000640                ADC0_IRQHandler
+                0x00000640                UsageFault_Handler
+                0x00000640                LEUART0_IRQHandler
+                0x00000640                UART0_TX_IRQHandler
+                0x00000640                RTC_IRQHandler
+                0x00000640                USART0_TX_IRQHandler
+                0x00000640                LCD_IRQHandler
+                0x00000640                PCNT2_IRQHandler
+                0x00000640                UART0_RX_IRQHandler
+                0x00000640                LETIMER0_IRQHandler
+                0x00000640                USART2_RX_IRQHandler
+                0x00000640                Default_Handler
+                0x00000640                EMU_IRQHandler
+                0x00000640                PCNT0_IRQHandler
+                0x00000640                BURTC_IRQHandler
+                0x00000640                PCNT1_IRQHandler
+                0x00000640                ACMP0_IRQHandler
+                0x00000640                USART0_RX_IRQHandler
+                0x00000640                MemManage_Handler
+                0x00000640                SVC_Handler
+                0x00000640                DAC0_IRQHandler
+                0x00000640                CMU_IRQHandler
+                0x00000640                EBI_IRQHandler
+                0x00000640                LESENSE_IRQHandler
+                0x00000640                AES_IRQHandler
+                0x00000640                VCMP_IRQHandler
+                0x00000640                BusFault_Handler
+                0x00000640                USART2_TX_IRQHandler
+ .text.GetProdRev
+                0x00000644       0x1c ./CMSIS/EFM32GG/system_efm32gg.o
+ .text.SystemCoreClockGet
+                0x00000660       0x34 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x00000660                SystemCoreClockGet
+ .text.SystemMaxCoreClockGet
+                0x00000694       0x14 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x00000694                SystemMaxCoreClockGet
+ .text.SystemHFClockGet
+                0x000006a8      0x100 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x000006a8                SystemHFClockGet
+ .text.SystemHFXOClockGet
+                0x000007a8       0x18 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x000007a8                SystemHFXOClockGet
+ .text.SystemInit
+                0x000007c0        0xc ./CMSIS/EFM32GG/system_efm32gg.o
+                0x000007c0                SystemInit
+ .text.SystemLFRCOClockGet
+                0x000007cc       0x14 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x000007cc                SystemLFRCOClockGet
+ .text.SystemULFRCOClockGet
+                0x000007e0       0x14 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x000007e0                SystemULFRCOClockGet
+ .text.SystemLFXOClockGet
+                0x000007f4       0x18 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x000007f4                SystemLFXOClockGet
+ .text.CDC_Init
+                0x0000080c       0x10 ./Drivers/cdc.o
+                0x0000080c                CDC_Init
+ .text.CDC_SetupCmd
+                0x0000081c       0xec ./Drivers/cdc.o
+                0x0000081c                CDC_SetupCmd
+ .text.CDC_StateChangeEvent
+                0x00000908      0x11c ./Drivers/cdc.o
+                0x00000908                CDC_StateChangeEvent
+ .text.UsbDataReceived
+                0x00000a24       0xa8 ./Drivers/cdc.o
+ .text.DmaTxComplete
+                0x00000acc       0x94 ./Drivers/cdc.o
+ .text.UsbDataTransmitted
+                0x00000b60       0xe0 ./Drivers/cdc.o
+ .text.DmaRxComplete
+                0x00000c40      0x11c ./Drivers/cdc.o
+ .text.UartRxTimeout
+                0x00000d5c       0xc4 ./Drivers/cdc.o
+ .text.LineCodingReceived
+                0x00000e20      0x13c ./Drivers/cdc.o
+ .text.DmaSetup
+                0x00000f5c       0xcc ./Drivers/cdc.o
+ .text.SerialPortInit
+                0x00001028       0x80 ./Drivers/cdc.o
+ .text.GPIO_PinOutToggle
+                0x000010a8       0x98 ./Drivers/msdd.o
+ .text.MSDD_Init
+                0x00001140       0x80 ./Drivers/msdd.o
+                0x00001140                MSDD_Init
+ .text.MSDD_Handler
+                0x000011c0      0x144 ./Drivers/msdd.o
+                0x000011c0                MSDD_Handler
+ .text.MSDD_SetupCmd
+                0x00001304      0x198 ./Drivers/msdd.o
+                0x00001304                MSDD_SetupCmd
+ .text.MSDD_StateChangeEvent
+                0x0000149c       0x58 ./Drivers/msdd.o
+                0x0000149c                MSDD_StateChangeEvent
+ .text.CbwCallback
+                0x000014f4      0x2a8 ./Drivers/msdd.o
+ .text.CswMeaningful
+                0x0000179c       0x68 ./Drivers/msdd.o
+ .text.CswValid
+                0x00001804       0x28 ./Drivers/msdd.o
+ .text.EnableNextCbw
+                0x0000182c       0x1c ./Drivers/msdd.o
+ .text.ProcessScsiCdb
+                0x00001848      0x46c ./Drivers/msdd.o
+ .text.SendCsw  0x00001cb4       0x3c ./Drivers/msdd.o
+ .text.UsbXferBotData
+                0x00001cf0       0x40 ./Drivers/msdd.o
+ .text.XferBotData
+                0x00001d30       0x7c ./Drivers/msdd.o
+ .text.XferBotDataCallback
+                0x00001dac       0xc0 ./Drivers/msdd.o
+ .text.XferBotDataIndirectCallback
+                0x00001e6c       0x74 ./Drivers/msdd.o
+ .text.LCD_FreezeEnable
+                0x00001ee0       0x2c ./Drivers/segmentlcd.o
+ .text.LCD_SyncBusyDelay
+                0x00001f0c       0x24 ./Drivers/segmentlcd.o
+ .text.LCD_IntDisable
+                0x00001f30       0x24 ./Drivers/segmentlcd.o
+ .text.SegmentLCD_AllOff
+                0x00001f54       0xac ./Drivers/segmentlcd.o
+                0x00001f54                SegmentLCD_AllOff
+ .text.SegmentLCD_AlphaNumberOff
+                0x00002000       0xa8 ./Drivers/segmentlcd.o
+                0x00002000                SegmentLCD_AlphaNumberOff
+ .text.SegmentLCD_Init
+                0x000020a8       0xb8 ./Drivers/segmentlcd.o
+                0x000020a8                SegmentLCD_Init
+ .text.SegmentLCD_Symbol
+                0x00002160      0x130 ./Drivers/segmentlcd.o
+                0x00002160                SegmentLCD_Symbol
+ .text.SegmentLCD_Write
+                0x00002290       0xd8 ./Drivers/segmentlcd.o
+                0x00002290                SegmentLCD_Write
+ .text.ADC_LoadDevinfoCal
+                0x00002368      0x120 ./emlib/em_adc.o
+ .text.ADC_Init
+                0x00002488       0xcc ./emlib/em_adc.o
+                0x00002488                ADC_Init
+ .text.ADC_InitSingle
+                0x00002554       0xb4 ./emlib/em_adc.o
+                0x00002554                ADC_InitSingle
+ .text.ADC_PrescaleCalc
+                0x00002608       0x64 ./emlib/em_adc.o
+                0x00002608                ADC_PrescaleCalc
+ .text.ADC_TimebaseCalc
+                0x0000266c       0x60 ./emlib/em_adc.o
+                0x0000266c                ADC_TimebaseCalc
+ .text.BUS_RegBitWrite
+                0x000026cc       0x2c ./emlib/em_cmu.o
+ .text.BUS_RegBitRead
+                0x000026f8       0x2c ./emlib/em_cmu.o
+ .text.CMU_DivToLog2
+                0x00002724       0x3c ./emlib/em_cmu.o
+ .text.SYSTEM_GetProdRev
+                0x00002760       0x1c ./emlib/em_cmu.o
+ .text.SYSTEM_GetFamily
+                0x0000277c       0x20 ./emlib/em_cmu.o
+ .text.maxFreqHfle
+                0x0000279c       0x84 ./emlib/em_cmu.o
+ .text.setHfLeConfig
+                0x00002820       0x60 ./emlib/em_cmu.o
+ .text.getHfLeConfig
+                0x00002880       0x20 ./emlib/em_cmu.o
+ .text.auxClkGet
+                0x000028a0       0xc0 ./emlib/em_cmu.o
+ .text.dbgClkGet
+                0x00002960       0x4c ./emlib/em_cmu.o
+ .text.flashWaitStateControl
+                0x000029ac       0xb8 ./emlib/em_cmu.o
+ .text.flashWaitStateMax
+                0x00002a64       0x14 ./emlib/em_cmu.o
+ .text.CMU_UpdateWaitStates
+                0x00002a78       0x18 ./emlib/em_cmu.o
+                0x00002a78                CMU_UpdateWaitStates
+ .text.lfClkGet
+                0x00002a90      0x10c ./emlib/em_cmu.o
+ .text.syncReg  0x00002b9c       0x34 ./emlib/em_cmu.o
+ .text.usbCClkGet
+                0x00002bd0       0x4c ./emlib/em_cmu.o
+ .text.CMU_ClockDivSet
+                0x00002c1c      0x2c4 ./emlib/em_cmu.o
+                0x00002c1c                CMU_ClockDivSet
+ .text.CMU_ClockEnable
+                0x00002ee0       0xdc ./emlib/em_cmu.o
+                0x00002ee0                CMU_ClockEnable
+ .text.CMU_ClockFreqGet
+                0x00002fbc      0x1e4 ./emlib/em_cmu.o
+                0x00002fbc                CMU_ClockFreqGet
+ .text.CMU_ClockSelectGet
+                0x000031a0      0x168 ./emlib/em_cmu.o
+                0x000031a0                CMU_ClockSelectGet
+ .text.CMU_ClockSelectSet
+                0x00003308      0x2d8 ./emlib/em_cmu.o
+                0x00003308                CMU_ClockSelectSet
+ .text.CMU_LCDClkFDIVSet
+                0x000035e0       0x4c ./emlib/em_cmu.o
+                0x000035e0                CMU_LCDClkFDIVSet
+ .text.CMU_OscillatorEnable
+                0x0000362c       0xc8 ./emlib/em_cmu.o
+                0x0000362c                CMU_OscillatorEnable
+ .text.CORE_AtomicDisableIrq
+                0x000036f4       0x10 ./emlib/em_core.o
+                0x000036f4                CORE_AtomicDisableIrq
+ .text.CORE_AtomicEnableIrq
+                0x00003704       0x10 ./emlib/em_core.o
+                0x00003704                CORE_AtomicEnableIrq
+ .text.CORE_EnterAtomic
+                0x00003714       0x20 ./emlib/em_core.o
+                0x00003714                CORE_EnterAtomic
+ .text.CORE_ExitAtomic
+                0x00003734       0x1c ./emlib/em_core.o
+                0x00003734                CORE_ExitAtomic
+ .text.NVIC_EnableIRQ
+                0x00003750       0x30 ./emlib/em_dma.o
+ .text.NVIC_DisableIRQ
+                0x00003780       0x34 ./emlib/em_dma.o
+ .text.NVIC_ClearPendingIRQ
+                0x000037b4       0x34 ./emlib/em_dma.o
+ .text.BUS_RegBitWrite
+                0x000037e8       0x2c ./emlib/em_dma.o
+ .text.DMA_Prepare
+                0x00003814      0x114 ./emlib/em_dma.o
+ .text.DMA_IRQHandler
+                0x00003928       0xec ./emlib/em_dma.o
+                0x00003928                DMA_IRQHandler
+ .text.DMA_ActivateBasic
+                0x00003a14       0x68 ./emlib/em_dma.o
+                0x00003a14                DMA_ActivateBasic
+ .text.DMA_CfgChannel
+                0x00003a7c       0xb4 ./emlib/em_dma.o
+                0x00003a7c                DMA_CfgChannel
+ .text.DMA_CfgDescr
+                0x00003b30       0x90 ./emlib/em_dma.o
+                0x00003b30                DMA_CfgDescr
+ .text.DMA_Init
+                0x00003bc0       0x7c ./emlib/em_dma.o
+                0x00003bc0                DMA_Init
+ .text.DMA_Reset
+                0x00003c3c       0x88 ./emlib/em_dma.o
+                0x00003c3c                DMA_Reset
+ .text.GPIO_PinOutClear
+                0x00003cc4       0x98 ./emlib/em_gpio.o
+ .text.GPIO_PinOutSet
+                0x00003d5c       0x98 ./emlib/em_gpio.o
+ .text.GPIO_PinModeSet
+                0x00003df4      0x150 ./emlib/em_gpio.o
+                0x00003df4                GPIO_PinModeSet
+ .text.BUS_RegBitWrite
+                0x00003f44       0x2c ./emlib/em_i2c.o
+ .text.BUS_RegMaskedWrite
+                0x00003f70       0x28 ./emlib/em_i2c.o
+ .text.I2C_BusFreqSet
+                0x00003f98      0x140 ./emlib/em_i2c.o
+                0x00003f98                I2C_BusFreqSet
+ .text.I2C_Init
+                0x000040d8       0x84 ./emlib/em_i2c.o
+                0x000040d8                I2C_Init
+ .text.I2C_Reset
+                0x0000415c       0x3c ./emlib/em_i2c.o
+                0x0000415c                I2C_Reset
+ .text.I2C_Transfer
+                0x00004198      0x46c ./emlib/em_i2c.o
+                0x00004198                I2C_Transfer
+ .text.I2C_TransferInit
+                0x00004604      0x104 ./emlib/em_i2c.o
+                0x00004604                I2C_TransferInit
+ .text.LCD_Enable
+                0x00004708       0x38 ./emlib/em_lcd.o
+ .text.BUS_RegBitWrite
+                0x00004740       0x2c ./emlib/em_lcd.o
+ .text.LCD_Init
+                0x0000476c       0x88 ./emlib/em_lcd.o
+                0x0000476c                LCD_Init
+ .text.LCD_VLCDSelect
+                0x000047f4       0x44 ./emlib/em_lcd.o
+                0x000047f4                LCD_VLCDSelect
+ .text.LCD_SegmentRangeEnable
+                0x00004838       0x40 ./emlib/em_lcd.o
+                0x00004838                LCD_SegmentRangeEnable
+ .text.LCD_SegmentSet
+                0x00004878      0x214 ./emlib/em_lcd.o
+                0x00004878                LCD_SegmentSet
+ .text.LCD_SegmentSetLow
+                0x00004a8c      0x198 ./emlib/em_lcd.o
+                0x00004a8c                LCD_SegmentSetLow
+ .text.LCD_SegmentSetHigh
+                0x00004c24      0x18c ./emlib/em_lcd.o
+                0x00004c24                LCD_SegmentSetHigh
+ .text.LCD_VBoostSet
+                0x00004db0       0x28 ./emlib/em_lcd.o
+                0x00004db0                LCD_VBoostSet
+ .text.MSC_Init
+                0x00004dd8       0xb8 ./emlib/em_msc.o
+                0x00004dd8                MSC_Init
+ .text.MSC_Deinit
+                0x00004e90       0x24 ./emlib/em_msc.o
+                0x00004e90                MSC_Deinit
+ .text.SYSTEM_ChipRevisionGet
+                0x00004eb4       0x80 ./emlib/em_system.o
+                0x00004eb4                SYSTEM_ChipRevisionGet
+ .text.TIMER_Valid
+                0x00004f34       0x50 ./emlib/em_timer.o
+ .text.TIMER_Init
+                0x00004f84       0xec ./emlib/em_timer.o
+                0x00004f84                TIMER_Init
+ .text.TIMER_InitCC
+                0x00005070       0xbc ./emlib/em_timer.o
+                0x00005070                TIMER_InitCC
+ .text.USART_BaudrateAsyncSet
+                0x0000512c      0x130 ./emlib/em_usart.o
+                0x0000512c                USART_BaudrateAsyncSet
+ .text.USART_BaudrateSyncSet
+                0x0000525c       0x6c ./emlib/em_usart.o
+                0x0000525c                USART_BaudrateSyncSet
+ .text.USART_Enable
+                0x000052c8       0x78 ./emlib/em_usart.o
+                0x000052c8                USART_Enable
+ .text.USART_InitAsync
+                0x00005340       0xc0 ./emlib/em_usart.o
+                0x00005340                USART_InitAsync
+ .text.USART_InitSync
+                0x00005400       0xd8 ./emlib/em_usart.o
+                0x00005400                USART_InitSync
+ .text.USART_Reset
+                0x000054d8       0xb8 ./emlib/em_usart.o
+                0x000054d8                USART_Reset
+ .text.USART_SpiTransfer
+                0x00005590       0x40 ./emlib/em_usart.o
+                0x00005590                USART_SpiTransfer
+ .text.NVIC_EnableIRQ
+                0x000055d0       0x30 ./emusb/em_usbd.o
+ .text.NVIC_ClearPendingIRQ
+                0x00005600       0x34 ./emusb/em_usbd.o
+ .text.USBHAL_DisableGlobalInt
+                0x00005634       0x28 ./emusb/em_usbd.o
+ .text.USBHAL_EnableGlobalInt
+                0x0000565c       0x28 ./emusb/em_usbd.o
+ .text.USBHAL_VbusIsOn
+                0x00005684       0x24 ./emusb/em_usbd.o
+ .text.USBDHAL_EnableUsbResetAndSuspendInt
+                0x000056a8       0x2c ./emusb/em_usbd.o
+ .text.USBDHAL_EpIsStalled
+                0x000056d4       0x38 ./emusb/em_usbd.o
+ .text.USBDHAL_GetStallStatusEp
+                0x0000570c       0xb0 ./emusb/em_usbd.o
+ .text.USBDHAL_SetEp0InDmaPtr
+                0x000057bc       0x24 ./emusb/em_usbd.o
+ .text.USBDHAL_SetEp0OutDmaPtr
+                0x000057e0       0x24 ./emusb/em_usbd.o
+ .text.USBDHAL_StallEp
+                0x00005804       0xac ./emusb/em_usbd.o
+ .text.USBDHAL_StartEp0In
+                0x000058b0       0x50 ./emusb/em_usbd.o
+ .text.USBDHAL_StartEp0Out
+                0x00005900       0x50 ./emusb/em_usbd.o
+ .text.USBDHAL_StartEpIn
+                0x00005950       0x9c ./emusb/em_usbd.o
+ .text.USBDHAL_StartEpOut
+                0x000059ec       0xac ./emusb/em_usbd.o
+ .text.USBDHAL_UnStallEp
+                0x00005a98       0xc8 ./emusb/em_usbd.o
+ .text.USBD_ArmEp
+                0x00005b60       0x24 ./emusb/em_usbd.o
+ .text.USBD_ArmEp0
+                0x00005b84       0x7c ./emusb/em_usbd.o
+ .text.USBD_ArmEpN
+                0x00005c00       0x24 ./emusb/em_usbd.o
+ .text.USBD_GetEpFromAddr
+                0x00005c24       0x80 ./emusb/em_usbd.o
+ .text.USBD_GetUsbState
+                0x00005ca4       0x1c ./emusb/em_usbd.o
+                0x00005ca4                USBD_GetUsbState
+ .text.USBD_Init
+                0x00005cc0      0x480 ./emusb/em_usbd.o
+                0x00005cc0                USBD_Init
+ .text.USBD_Read
+                0x00006140      0x130 ./emusb/em_usbd.o
+                0x00006140                USBD_Read
+ .text.USBD_SetUsbState
+                0x00006270       0x70 ./emusb/em_usbd.o
+                0x00006270                USBD_SetUsbState
+ .text.USBD_StallEp
+                0x000062e0       0x74 ./emusb/em_usbd.o
+                0x000062e0                USBD_StallEp
+ .text.USBD_UnStallEp
+                0x00006354       0x74 ./emusb/em_usbd.o
+                0x00006354                USBD_UnStallEp
+ .text.USBD_Write
+                0x000063c8      0x134 ./emusb/em_usbd.o
+                0x000063c8                USBD_Write
+ .text.USBDHAL_ActivateEp
+                0x000064fc      0x114 ./emusb/em_usbdch9.o
+ .text.USBDHAL_DeactivateEp
+                0x00006610       0x6c ./emusb/em_usbdch9.o
+ .text.USBDHAL_GetStallStatusEp
+                0x0000667c       0xb0 ./emusb/em_usbdch9.o
+ .text.USBDHAL_SetAddr
+                0x0000672c       0x34 ./emusb/em_usbdch9.o
+ .text.USBDHAL_StallEp
+                0x00006760       0xac ./emusb/em_usbdch9.o
+ .text.USBDHAL_UnStallEp
+                0x0000680c       0xc8 ./emusb/em_usbdch9.o
+ .text.USBD_ActivateAllEps
+                0x000068d4       0x44 ./emusb/em_usbdch9.o
+ .text.USBD_DeactivateAllEps
+                0x00006918       0x58 ./emusb/em_usbdch9.o
+ .text.USBD_GetEpFromAddr
+                0x00006970       0x80 ./emusb/em_usbdch9.o
+ .text.USBDCH9_SetupCmd
+                0x000069f0       0xec ./emusb/em_usbdch9.o
+                0x000069f0                USBDCH9_SetupCmd
+ .text.ClearFeature
+                0x00006adc       0xc4 ./emusb/em_usbdch9.o
+ .text.GetConfiguration
+                0x00006ba0       0xa4 ./emusb/em_usbdch9.o
+ .text.GetDescriptor
+                0x00006c44       0xf8 ./emusb/em_usbdch9.o
+ .text.GetInterface
+                0x00006d3c       0x8c ./emusb/em_usbdch9.o
+ .text.GetStatus
+                0x00006dc8      0x194 ./emusb/em_usbdch9.o
+ .text.SetAddress
+                0x00006f5c       0xac ./emusb/em_usbdch9.o
+ .text.SetConfiguration
+                0x00007008      0x100 ./emusb/em_usbdch9.o
+ .text.SetFeature
+                0x00007108       0xf4 ./emusb/em_usbdch9.o
+ .text.SetInterface
+                0x000071fc       0x64 ./emusb/em_usbdch9.o
+ .text.USBDHAL_ReenableEp0Setup
+                0x00007260       0x50 ./emusb/em_usbdep.o
+ .text.USBDHAL_StallEp
+                0x000072b0       0xac ./emusb/em_usbdep.o
+ .text.USBDHAL_StartEp0In
+                0x0000735c       0x50 ./emusb/em_usbdep.o
+ .text.USBDHAL_StartEp0Out
+                0x000073ac       0x50 ./emusb/em_usbdep.o
+ .text.USBD_GetEpFromAddr
+                0x000073fc       0x80 ./emusb/em_usbdep.o
+ .text.USBD_ReArmEp0
+                0x0000747c       0x58 ./emusb/em_usbdep.o
+ .text.USBDEP_Ep0Handler
+                0x000074d4      0x264 ./emusb/em_usbdep.o
+                0x000074d4                USBDEP_Ep0Handler
+ .text.USBDEP_EpHandler
+                0x00007738       0x6c ./emusb/em_usbdep.o
+                0x00007738                USBDEP_EpHandler
+ .text.USBHAL_FlushTxFifo
+                0x000077a4       0x40 ./emusb/em_usbdint.o
+ .text.USBHAL_GetCoreInts
+                0x000077e4       0x34 ./emusb/em_usbdint.o
+ .text.USBDHAL_EnableInts
+                0x00007818       0x58 ./emusb/em_usbdint.o
+ .text.USBDHAL_EnableUsbResetAndSuspendInt
+                0x00007870       0x2c ./emusb/em_usbdint.o
+ .text.USBDHAL_Ep0Activate
+                0x0000789c       0x58 ./emusb/em_usbdint.o
+ .text.USBDHAL_GetAllInEpInts
+                0x000078f4       0x38 ./emusb/em_usbdint.o
+ .text.USBDHAL_GetAllOutEpInts
+                0x0000792c       0x38 ./emusb/em_usbdint.o
+ .text.USBDHAL_GetInEpInts
+                0x00007964       0x3c ./emusb/em_usbdint.o
+ .text.USBDHAL_GetOutEpInts
+                0x000079a0       0x3c ./emusb/em_usbdint.o
+ .text.USBDHAL_StartEp0Setup
+                0x000079dc       0x70 ./emusb/em_usbdint.o
+ .text.USBD_GetEpFromAddr
+                0x00007a4c       0x80 ./emusb/em_usbdint.o
+ .text.USB_IRQHandler
+                0x00007acc      0x1c4 ./emusb/em_usbdint.o
+                0x00007acc                USB_IRQHandler
+ .text.Handle_USB_GINTSTS_ENUMDONE
+                0x00007c90       0x30 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_IEPINT
+                0x00007cc0      0x110 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_OEPINT
+                0x00007dd0       0x9c ./emusb/em_usbdint.o
+ .text.ProcessOepData
+                0x00007e6c       0x9c ./emusb/em_usbdint.o
+ .text.ProcessSetup
+                0x00007f08       0xc8 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_RESETDET
+                0x00007fd0       0x70 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_SOF
+                0x00008040       0x48 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_USBRST
+                0x00008088       0xf0 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_USBSUSP
+                0x00008178       0x60 ./emusb/em_usbdint.o
+ .text.Handle_USB_GINTSTS_WKUPINT
+                0x000081d8       0x70 ./emusb/em_usbdint.o
+ .text.UsbPowerDown
+                0x00008248      0x2ac ./emusb/em_usbdint.o
+ .text.UsbPowerUp
+                0x000084f4      0x1ac ./emusb/em_usbdint.o
+ .text.RestoreEpCtrlRegisters
+                0x000086a0      0x140 ./emusb/em_usbdint.o
+ .text.NVIC_ClearPendingIRQ
+                0x000087e0       0x34 ./emusb/em_usbhal.o
+ .text.USBHAL_FlushRxFifo
+                0x00008814       0x30 ./emusb/em_usbhal.o
+ .text.USBHAL_FlushTxFifo
+                0x00008844       0x40 ./emusb/em_usbhal.o
+ .text.USBDHAL_DeactivateEp
+                0x00008884       0x6c ./emusb/em_usbhal.o
+ .text.USBDHAL_GetInEpInts
+                0x000088f0       0x3c ./emusb/em_usbhal.o
+ .text.USBDHAL_GetOutEpInts
+                0x0000892c       0x3c ./emusb/em_usbhal.o
+ .text.USBDHAL_SetEPDISNAK
+                0x00008968       0x84 ./emusb/em_usbhal.o
+ .text.USBD_GetEpFromAddr
+                0x000089ec       0x80 ./emusb/em_usbhal.o
+ .text.PrintI   0x00008a6c       0x14 ./emusb/em_usbhal.o
+ .text.assertEFM
+                0x00008a80       0x14 ./emusb/em_usbhal.o
+                0x00008a80                assertEFM
+ .text.USBHAL_CoreReset
+                0x00008a94       0x84 ./emusb/em_usbhal.o
+                0x00008a94                USBHAL_CoreReset
+ .text.USBDHAL_CoreInit
+                0x00008b18      0x2e8 ./emusb/em_usbhal.o
+                0x00008b18                USBDHAL_CoreInit
+ .text.USBDHAL_AbortAllEps
+                0x00008e00      0x3f8 ./emusb/em_usbhal.o
+                0x00008e00                USBDHAL_AbortAllEps
+ .text.USBDHAL_AbortAllTransfers
+                0x000091f8       0xa4 ./emusb/em_usbhal.o
+                0x000091f8                USBDHAL_AbortAllTransfers
+ .text.NVIC_EnableIRQ
+                0x0000929c       0x30 ./emusb/em_usbtimer.o
+ .text.NVIC_ClearPendingIRQ
+                0x000092cc       0x34 ./emusb/em_usbtimer.o
+ .text.TIMER_MaxCount
+                0x00009300       0x18 ./emusb/em_usbtimer.o
+ .text.TIMER_CaptureGet
+                0x00009318       0x24 ./emusb/em_usbtimer.o
+ .text.TIMER_CompareSet
+                0x0000933c       0x3c ./emusb/em_usbtimer.o
+ .text.TIMER_CounterGet
+                0x00009378       0x18 ./emusb/em_usbtimer.o
+ .text.TIMER_IntClear
+                0x00009390       0x1c ./emusb/em_usbtimer.o
+ .text.TIMER_IntEnable
+                0x000093ac       0x20 ./emusb/em_usbtimer.o
+ .text.TIMER_IntGet
+                0x000093cc       0x18 ./emusb/em_usbtimer.o
+ .text.TIMER_TopSet
+                0x000093e4       0x34 ./emusb/em_usbtimer.o
+ .text.TIMER0_IRQHandler
+                0x00009418       0x58 ./emusb/em_usbtimer.o
+                0x00009418                TIMER0_IRQHandler
+ .text.DelayTicks
+                0x00009470       0x40 ./emusb/em_usbtimer.o
+ .text.USBTIMER_DelayMs
+                0x000094b0       0x7c ./emusb/em_usbtimer.o
+                0x000094b0                USBTIMER_DelayMs
+ .text.USBTIMER_DelayUs
+                0x0000952c      0x108 ./emusb/em_usbtimer.o
+                0x0000952c                USBTIMER_DelayUs
+ .text.USBTIMER_Init
+                0x00009634      0x158 ./emusb/em_usbtimer.o
+                0x00009634                USBTIMER_Init
+ .text.USBTIMER_Start
+                0x0000978c      0x13c ./emusb/em_usbtimer.o
+                0x0000978c                USBTIMER_Start
+ .text.USBTIMER_Stop
+                0x000098c8       0x90 ./emusb/em_usbtimer.o
+                0x000098c8                USBTIMER_Stop
+ .text.TimerTick
+                0x00009958       0x6c ./emusb/em_usbtimer.o
+ .text.ADC_DataSingleGet
+                0x000099c4       0x18 ./src/ADC_EFM32.o
+ .text.ADC_Start
+                0x000099dc       0x1c ./src/ADC_EFM32.o
+ .text.Init_ADC_EFM
+                0x000099f8       0xa8 ./src/ADC_EFM32.o
+                0x000099f8                Init_ADC_EFM
+ .text.ADC_Conversation
+                0x00009aa0       0xe4 ./src/ADC_EFM32.o
+                0x00009aa0                ADC_Conversation
+ .text.MCP23017_Configure_Default
+                0x00009b84       0x80 ./src/MCP23017.o
+                0x00009b84                MCP23017_Configure_Default
+ .text.MCP23017_Write_Register
+                0x00009c04       0x8c ./src/MCP23017.o
+                0x00009c04                MCP23017_Write_Register
+ .text.MCP23017_Read_Register
+                0x00009c90       0x84 ./src/MCP23017.o
+                0x00009c90                MCP23017_Read_Register
+ .text.CRC16    0x00009d14       0x54 ./src/Modbus.o
+                0x00009d14                CRC16
+ .text.NVIC_EnableIRQ
+                0x00009d68       0x30 ./src/RS485.o
+ .text.NVIC_ClearPendingIRQ
+                0x00009d98       0x34 ./src/RS485.o
+ .text.GPIO_PinOutClear
+                0x00009dcc       0x98 ./src/RS485.o
+ .text.GPIO_PinOutSet
+                0x00009e64       0x98 ./src/RS485.o
+ .text.RS485_Init
+                0x00009efc       0xac ./src/RS485.o
+                0x00009efc                RS485_Init
+ .text.UART1_RX_IRQHandler
+                0x00009fa8       0xa8 ./src/RS485.o
+                0x00009fa8                UART1_RX_IRQHandler
+ .text.UART1_TX_IRQHandler
+                0x0000a050       0x14 ./src/RS485.o
+                0x0000a050                UART1_TX_IRQHandler
+ .text.RS485_MM_R11
+                0x0000a064      0x190 ./src/RS485.o
+                0x0000a064                RS485_MM_R11
+ .text.RS485_MM_R12
+                0x0000a1f4      0x178 ./src/RS485.o
+                0x0000a1f4                RS485_MM_R12
+ .text.RS485_MM_W_Restart
+                0x0000a36c      0x190 ./src/RS485.o
+                0x0000a36c                RS485_MM_W_Restart
+ .text.RS485_MM_K03
+                0x0000a4fc      0x1a4 ./src/RS485.o
+                0x0000a4fc                RS485_MM_K03
+ .text.GPIO_PinOutSet
+                0x0000a6a0       0x98 ./src/STC3105.o
+ .text.STC3105_INIT_I2C
+                0x0000a738       0x60 ./src/STC3105.o
+                0x0000a738                STC3105_INIT_I2C
+ .text.STC3105_WriteRegister
+                0x0000a798       0x78 ./src/STC3105.o
+                0x0000a798                STC3105_WriteRegister
+ .text.STC3105_GET_CURRENT
+                0x0000a810       0x98 ./src/STC3105.o
+                0x0000a810                STC3105_GET_CURRENT
+ .text.STC3105_GET_VOLTAGE
+                0x0000a8a8       0x80 ./src/STC3105.o
+                0x0000a8a8                STC3105_GET_VOLTAGE
+ .text.STC3105_GET_CHARGE
+                0x0000a928       0x74 ./src/STC3105.o
+                0x0000a928                STC3105_GET_CHARGE
+ .text.STC3105_GET_COUNTER
+                0x0000a99c       0x74 ./src/STC3105.o
+                0x0000a99c                STC3105_GET_COUNTER
+ .text.STC3105_Init_ConfigMode
+                0x0000aa10       0x24 ./src/STC3105.o
+                0x0000aa10                STC3105_Init_ConfigMode
+ .text.GPIO_IntClear
+                0x0000aa34       0x20 ./src/gpiointerrupt.o
+ .text.GPIO_IntGetEnabled
+                0x0000aa54       0x28 ./src/gpiointerrupt.o
+ .text.SL_CTZ   0x0000aa7c       0x28 ./src/gpiointerrupt.o
+ .text.GPIOINT_IRQDispatcher
+                0x0000aaa4       0x50 ./src/gpiointerrupt.o
+ .text.GPIO_EVEN_IRQHandler
+                0x0000aaf4       0x28 ./src/gpiointerrupt.o
+                0x0000aaf4                GPIO_EVEN_IRQHandler
+ .text.GPIO_ODD_IRQHandler
+                0x0000ab1c       0x28 ./src/gpiointerrupt.o
+                0x0000ab1c                GPIO_ODD_IRQHandler
+ .text.SYSTEM_GetProdRev
+                0x0000ab44       0x1c ./src/main.o
+ .text.CHIP_Init
+                0x0000ab60       0x3c ./src/main.o
+ .text._exit    0x0000ab9c        0xc ./src/main.o
+                0x0000ab9c                _exit
+ .text.SysTick_Handler
+                0x0000aba8       0x1c ./src/main.o
+                0x0000aba8                SysTick_Handler
+ .text.I2C1_INIT
+                0x0000abc4       0x5c ./src/main.o
+                0x0000abc4                I2C1_INIT
+ .text.SPI_INIT
+                0x0000ac20       0xb0 ./src/main.o
+                0x0000ac20                SPI_INIT
+ .text.myCallback
+                0x0000acd0      0x2d4 ./src/main.o
+ .text.main     0x0000afa4       0xfc ./src/main.o
+                0x0000afa4                main
+ .text.SetupCmd
+                0x0000b0a0       0x3c ./src/main.o
+                0x0000b0a0                SetupCmd
+ .text.StateChangeEvent
+                0x0000b0dc       0x48 ./src/main.o
+                0x0000b0dc                StateChangeEvent
+ .text.PrintfUSBfloat2char
+                0x0000b124      0x49c ./src/main.o
+                0x0000b124                PrintfUSBfloat2char
+ .text.PP_Read_Voltage
+                0x0000b5c0      0x160 ./src/main.o
+                0x0000b5c0                PP_Read_Voltage
+ .text.Main_Zadanie
+                0x0000b720     0x1248 ./src/main.o
+                0x0000b720                Main_Zadanie
+ .text.FlushTimerTimeout
+                0x0000c968        0xc ./src/msddmedia.o
+ .text.MSDDMEDIA_CheckAccess
+                0x0000c974       0x80 ./src/msddmedia.o
+                0x0000c974                MSDDMEDIA_CheckAccess
+ .text.MSDDMEDIA_Flush
+                0x0000c9f4       0x24 ./src/msddmedia.o
+                0x0000c9f4                MSDDMEDIA_Flush
+ .text.MSDDMEDIA_GetSectorCount
+                0x0000ca18       0x18 ./src/msddmedia.o
+                0x0000ca18                MSDDMEDIA_GetSectorCount
+ .text.MSDDMEDIA_Init
+                0x0000ca30       0x28 ./src/msddmedia.o
+                0x0000ca30                MSDDMEDIA_Init
+ .text.MSDDMEDIA_Read
+                0x0000ca58       0x38 ./src/msddmedia.o
+                0x0000ca58                MSDDMEDIA_Read
+ .text.MSDDMEDIA_Write
+                0x0000ca90      0x104 ./src/msddmedia.o
+                0x0000ca90                MSDDMEDIA_Write
+ .text.dataSentCallback
+                0x0000cb94       0x1c ./src/myUSB.o
+                0x0000cb94                dataSentCallback
+ .text.NVIC_EnableIRQ
+                0x0000cbb0       0x30 ./src/my_timer.o
+ .text.TIMER_MaxCount
+                0x0000cbe0       0x18 ./src/my_timer.o
+ .text.TIMER_IntEnable
+                0x0000cbf8       0x20 ./src/my_timer.o
+ .text.TIMER_TopSet
+                0x0000cc18       0x34 ./src/my_timer.o
+ .text.Timer1_Configure
+                0x0000cc4c       0x6c ./src/my_timer.o
+                0x0000cc4c                Timer1_Configure
+ .text.SystemCoreClockUpdate
+                0x0000ccb8        0xc ./src/tester.o
+ .text.GPIO_PinOutClear
+                0x0000ccc4       0x98 ./src/tester.o
+ .text.GPIO_PinOutSet
+                0x0000cd5c       0x98 ./src/tester.o
+ .text.TIMER_IntClear
+                0x0000cdf4       0x1c ./src/tester.o
+ .text.TIMER_IntDisable
+                0x0000ce10       0x24 ./src/tester.o
+ .text.Init_Tester
+                0x0000ce34      0x208 ./src/tester.o
+                0x0000ce34                Init_Tester
+ .text.SEL_SPI1_PKSPP_ON
+                0x0000d03c       0x30 ./src/tester.o
+                0x0000d03c                SEL_SPI1_PKSPP_ON
+ .text.ZAL_TC_PKSPP_ON
+                0x0000d06c       0x54 ./src/tester.o
+                0x0000d06c                ZAL_TC_PKSPP_ON
+ .text.PP_Select_EEPROM
+                0x0000d0c0       0xc8 ./src/tester.o
+                0x0000d0c0                PP_Select_EEPROM
+ .text.PP_Select_ADC
+                0x0000d188       0xa8 ./src/tester.o
+                0x0000d188                PP_Select_ADC
+ .text.PP_Select_CS_EEPROM
+                0x0000d230       0xe0 ./src/tester.o
+                0x0000d230                PP_Select_CS_EEPROM
+ .text.PP_Select_CS_ADC
+                0x0000d310       0xc8 ./src/tester.o
+                0x0000d310                PP_Select_CS_ADC
+ .text.PP_UnSelect_CS_EEPROM
+                0x0000d3d8       0x6c ./src/tester.o
+                0x0000d3d8                PP_UnSelect_CS_EEPROM
+ .text.PP_UnSelect_CS_ADC
+                0x0000d444       0x6c ./src/tester.o
+                0x0000d444                PP_UnSelect_CS_ADC
+ .text.PP_PWR_ON
+                0x0000d4b0      0x118 ./src/tester.o
+                0x0000d4b0                PP_PWR_ON
+ .text.PP_CheckEEPROM
+                0x0000d5c8      0x164 ./src/tester.o
+                0x0000d5c8                PP_CheckEEPROM
+ .text.TIMER1_IRQHandler
+                0x0000d72c       0x24 ./src/tester.o
+                0x0000d72c                TIMER1_IRQHandler
+ .text.TIMER2_IRQHandler
+                0x0000d750       0x24 ./src/tester.o
+                0x0000d750                TIMER2_IRQHandler
+ .text.DebugMon_Handler
+                0x0000d774        0xc ./src/tester.o
+                0x0000d774                DebugMon_Handler
+ .text.PP_ReadADCConfig
+                0x0000d780      0x198 ./src/tester.o
+                0x0000d780                PP_ReadADCConfig
+ .text.PP_WriteADCConfig
+                0x0000d918       0xdc ./src/tester.o
+                0x0000d918                PP_WriteADCConfig
+ .text.PP_StartMeasure
+                0x0000d9f4       0x20 ./src/tester.o
+                0x0000d9f4                PP_StartMeasure
+ .text.PP_StopMeasure
+                0x0000da14       0x20 ./src/tester.o
+                0x0000da14                PP_StopMeasure
+ *fill*         0x0000da34        0x4 
+ .text.PP_SingleMinfo
+                0x0000da38      0x170 ./src/tester.o
+                0x0000da38                PP_SingleMinfo
+ .text.PP_ReadVdd
+                0x0000dba8      0x19c ./src/tester.o
+                0x0000dba8                PP_ReadVdd
+ .text.power2   0x0000dd44       0x34 ./src/tester.o
+                0x0000dd44                power2
+ .text.PP_ReadTemp
+                0x0000dd78      0x138 ./src/tester.o
+                0x0000dd78                PP_ReadTemp
+ .text.PP_ReadVav
+                0x0000deb0      0x120 ./src/tester.o
+                0x0000deb0                PP_ReadVav
+ .text.PP_ReadVref
+                0x0000dfd0      0x134 ./src/tester.o
+                0x0000dfd0                PP_ReadVref
+ .text.Tester_LED_RED
+                0x0000e104       0x10 ./src/tester.o
+                0x0000e104                Tester_LED_RED
+ .text.Tester_LED_GREEN
+                0x0000e114       0x10 ./src/tester.o
+                0x0000e114                Tester_LED_GREEN
+ .text.Tester_LED_BLUE
+                0x0000e124       0x10 ./src/tester.o
+                0x0000e124                Tester_LED_BLUE
+ .text.Tester_Relay_PK1_ON
+                0x0000e134       0xb8 ./src/tester.o
+                0x0000e134                Tester_Relay_PK1_ON
+ .text.Tester_Relay_PK1_OFF
+                0x0000e1ec       0xb8 ./src/tester.o
+                0x0000e1ec                Tester_Relay_PK1_OFF
+ .text.Tester_Relay_PK2_ON
+                0x0000e2a4       0xb8 ./src/tester.o
+                0x0000e2a4                Tester_Relay_PK2_ON
+ .text.Tester_Relay_PK2_OFF
+                0x0000e35c       0xb8 ./src/tester.o
+                0x0000e35c                Tester_Relay_PK2_OFF
+ .text.Tester_Acces_to_ALL
+                0x0000e414       0x4c ./src/tester.o
+                0x0000e414                Tester_Acces_to_ALL
+ .text.Tester_Acces_to_MZB
+                0x0000e460       0x60 ./src/tester.o
+                0x0000e460                Tester_Acces_to_MZB
+ .text.Tester_Acces_to_STER
+                0x0000e4c0       0x60 ./src/tester.o
+                0x0000e4c0                Tester_Acces_to_STER
+ .text.Hardware_ALL
+                0x0000e520      0xb4c ./src/tester.o
+                0x0000e520                Hardware_ALL
+ .text.Hardware_TEST_PORTA
+                0x0000f06c      0x310 ./src/tester.o
+                0x0000f06c                Hardware_TEST_PORTA
+ .text.Hardware_TEST_PORTB
+                0x0000f37c       0x10 ./src/tester.o
+                0x0000f37c                Hardware_TEST_PORTB
+ .text.Hardware_TEST_RDY
+                0x0000f38c      0x310 ./src/tester.o
+                0x0000f38c                Hardware_TEST_RDY
+ .text.Hardware_TEST_POMIAR
+                0x0000f69c      0x2f0 ./src/tester.o
+                0x0000f69c                Hardware_TEST_POMIAR
+ .text.Hardware_TEST_PWR
+                0x0000f98c      0x2e8 ./src/tester.o
+                0x0000f98c                Hardware_TEST_PWR
+ .text.Hardware_TEST_ZER
+                0x0000fc74      0x310 ./src/tester.o
+                0x0000fc74                Hardware_TEST_ZER
+ .text.Hardware_TEST_RESTART
+                0x0000ff84       0x10 ./src/tester.o
+                0x0000ff84                Hardware_TEST_RESTART
+ .text.Hardware_Modbus_Send_GPIO_1_SET_RDY
+                0x0000ff94      0x210 ./src/tester.o
+                0x0000ff94                Hardware_Modbus_Send_GPIO_1_SET_RDY
+ .text.Hardware_Modbus_Send_GPIO_1_CLEAR
+                0x000101a4      0x1fc ./src/tester.o
+                0x000101a4                Hardware_Modbus_Send_GPIO_1_CLEAR
+ .text.Hardware_Modbus_Send_GPIO_1_SET_POMIAR
+                0x000103a0      0x1fc ./src/tester.o
+                0x000103a0                Hardware_Modbus_Send_GPIO_1_SET_POMIAR
+ .text.Hardware_Modbus_Send_GPIO_2_SET_PWR
+                0x0001059c      0x210 ./src/tester.o
+                0x0001059c                Hardware_Modbus_Send_GPIO_2_SET_PWR
+ .text.Hardware_Modbus_Send_GPIO_2_CLEAR
+                0x000107ac      0x210 ./src/tester.o
+                0x000107ac                Hardware_Modbus_Send_GPIO_2_CLEAR
+ .text.Hardware_Modbus_Send_GPIO_2_SET_ZER
+                0x000109bc      0x210 ./src/tester.o
+                0x000109bc                Hardware_Modbus_Send_GPIO_2_SET_ZER
+ .text.Hardware_Modbus_Send_GPIO_10_SET_CS
+                0x00010bcc      0x210 ./src/tester.o
+                0x00010bcc                Hardware_Modbus_Send_GPIO_10_SET_CS
+ .text.Hardware_Modbus_Send_GPIO_10_CLEAR
+                0x00010ddc      0x210 ./src/tester.o
+                0x00010ddc                Hardware_Modbus_Send_GPIO_10_CLEAR
+ .text.VUD_Init
+                0x00010fec        0xc ./src/vud.o
+                0x00010fec                VUD_Init
+ .text.VUD_SetupCmd
+                0x00010ff8       0xbc ./src/vud.o
+                0x00010ff8                VUD_SetupCmd
+ .text          0x000110b4      0x370 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                0x000110b4                __aeabi_drsub
+                0x000110bc                __aeabi_dsub
+                0x000110bc                __subdf3
+                0x000110c0                __aeabi_dadd
+                0x000110c0                __adddf3
+                0x00011338                __floatunsidf
+                0x00011338                __aeabi_ui2d
+                0x00011358                __floatsidf
+                0x00011358                __aeabi_i2d
+                0x0001137c                __aeabi_f2d
+                0x0001137c                __extendsfdf2
+                0x000113b8                __floatundidf
+                0x000113b8                __aeabi_ul2d
+                0x000113c8                __floatdidf
+                0x000113c8                __aeabi_l2d
+ .text          0x00011424      0x424 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+                0x00011424                __aeabi_dmul
+                0x00011424                __muldf3
+                0x00011678                __divdf3
+                0x00011678                __aeabi_ddiv
+ .text          0x00011848      0x110 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpdf2.o)
+                0x00011848                __gtdf2
+                0x00011848                __gedf2
+                0x00011850                __ltdf2
+                0x00011850                __ledf2
+                0x00011858                __nedf2
+                0x00011858                __eqdf2
+                0x00011858                __cmpdf2
+                0x000118d4                __aeabi_cdrcmple
+                0x000118e4                __aeabi_cdcmpeq
+                0x000118e4                __aeabi_cdcmple
+                0x000118f4                __aeabi_dcmpeq
+                0x00011908                __aeabi_dcmplt
+                0x0001191c                __aeabi_dcmple
+                0x00011930                __aeabi_dcmpge
+                0x00011944                __aeabi_dcmpgt
+ .text          0x00011958       0xa0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_truncdfsf2.o)
+                0x00011958                __truncdfsf2
+                0x00011958                __aeabi_d2f
+ .text          0x000119f8      0x21c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x000119f8                __aeabi_frsub
+                0x00011a00                __subsf3
+                0x00011a00                __aeabi_fsub
+                0x00011a04                __aeabi_fadd
+                0x00011a04                __addsf3
+                0x00011b64                __aeabi_ui2f
+                0x00011b64                __floatunsisf
+                0x00011b6c                __aeabi_i2f
+                0x00011b6c                __floatsisf
+                0x00011b88                __aeabi_ul2f
+                0x00011b88                __floatundisf
+                0x00011b98                __aeabi_l2f
+                0x00011b98                __floatdisf
+ .text          0x00011c14      0x2a0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x00011c14                __mulsf3
+                0x00011c14                __aeabi_fmul
+                0x00011d7c                __aeabi_fdiv
+                0x00011d7c                __divsf3
+ .text          0x00011eb4       0xec c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+                0x00011eb4                __gesf2
+                0x00011eb4                __gtsf2
+                0x00011ebc                __lesf2
+                0x00011ebc                __ltsf2
+                0x00011ec4                __nesf2
+                0x00011ec4                __eqsf2
+                0x00011ec4                __cmpsf2
+                0x00011f24                __aeabi_cfrcmple
+                0x00011f2c                __aeabi_cfcmpeq
+                0x00011f2c                __aeabi_cfcmple
+                0x00011f3c                __aeabi_fcmpeq
+                0x00011f50                __aeabi_fcmplt
+                0x00011f64                __aeabi_fcmple
+                0x00011f78                __aeabi_fcmpge
+                0x00011f8c                __aeabi_fcmpgt
+ .text          0x00011fa0       0x40 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                0x00011fa0                __fixunssfsi
+                0x00011fa0                __aeabi_f2uiz
+ .text.exit     0x00011fe0       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+                0x00011fe0                exit
+ .text.__libc_init_array
+                0x00012008       0x4c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+                0x00012008                __libc_init_array
+ .text.memcpy   0x00012054       0x16 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+                0x00012054                memcpy
+ .text.memset   0x0001206a       0x10 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+                0x0001206a                memset
+ *fill*         0x0001207a        0x2 
+ .text.modf     0x0001207c       0x90 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+                0x0001207c                modf
+ .text.strlen   0x0001210c       0x10 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
+                0x0001210c                strlen
+ *(.init)
+ .init          0x0001211c        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+                0x0001211c                _init
+ .init          0x00012120        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ *(.fini)
+ .fini          0x00012128        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+                0x00012128                _fini
+ .fini          0x0001212c        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+ *fill*         0x00012134        0x4 
+ .fini.__stub   0x00012138       0x10 linker stubs
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x00012148       0x64 ./BSP/bsp_stk_leds.o
+ .rodata.ledArray
+                0x000121ac       0x10 ./BSP/bsp_stk_leds.o
+ .rodata        0x000121bc       0x18 ./Drivers/cdc.o
+ .rodata        0x000121d4       0x64 ./Drivers/msdd.o
+ .rodata.InquiryData
+                0x00012238       0x24 ./Drivers/msdd.o
+ .rodata.NoSenseData
+                0x0001225c       0x12 ./Drivers/msdd.o
+ *fill*         0x0001226e        0x2 
+ .rodata.IllegalSenseData
+                0x00012270       0x12 ./Drivers/msdd.o
+ *fill*         0x00012282        0x2 
+ .rodata.EFM_Display
+                0x00012284      0x1fe ./Drivers/segmentlcd.o
+ *fill*         0x00012482        0x2 
+ .rodata.EFM_Alphabet
+                0x00012484       0xb8 ./Drivers/segmentlcd.o
+ .rodata.lcdInit
+                0x0001253c       0x14 ./Drivers/segmentlcd.o
+ .rodata        0x00012550       0x12 ./emlib/em_adc.o
+ *fill*         0x00012562        0x2 
+ .rodata        0x00012564       0x76 ./emlib/em_cmu.o
+ *fill*         0x000125da        0x2 
+ .rodata        0x000125dc       0x12 ./emlib/em_dma.o
+ *fill*         0x000125ee        0x2 
+ .rodata        0x000125f0       0x77 ./emlib/em_gpio.o
+ *fill*         0x00012667        0x1 
+ .rodata.i2cNSum
+                0x00012668        0x4 ./emlib/em_i2c.o
+ .rodata        0x0001266c       0x12 ./emlib/em_i2c.o
+ *fill*         0x0001267e        0x2 
+ .rodata        0x00012680       0x12 ./emlib/em_lcd.o
+ *fill*         0x00012692        0x2 
+ .rodata        0x00012694       0x12 ./emlib/em_msc.o
+ *fill*         0x000126a6        0x2 
+ .rodata        0x000126a8       0x15 ./emlib/em_system.o
+ *fill*         0x000126bd        0x3 
+ .rodata        0x000126c0       0x7c ./emlib/em_timer.o
+ .rodata        0x0001273c       0x14 ./emlib/em_usart.o
+ .rodata        0x00012750       0x73 ./emusb/em_usbd.o
+ *fill*         0x000127c3        0x1 
+ .rodata        0x000127c4       0x15 ./emusb/em_usbdep.o
+ *fill*         0x000127d9        0x3 
+ .rodata        0x000127dc       0x65 ./emusb/em_usbtimer.o
+ *fill*         0x00012841        0x3 
+ .rodata.wCRCTable.3687
+                0x00012844      0x200 ./src/Modbus.o
+ .rodata        0x00012a44       0x64 ./src/RS485.o
+ .rodata        0x00012aa8       0x64 ./src/STC3105.o
+ .rodata.USBDESC_deviceDesc
+                0x00012b0c       0x12 ./src/descriptors.o
+                0x00012b0c                USBDESC_deviceDesc
+ *fill*         0x00012b1e        0x2 
+ .rodata.USBDESC_configDesc
+                0x00012b20       0x6b ./src/descriptors.o
+                0x00012b20                USBDESC_configDesc
+ *fill*         0x00012b8b        0x1 
+ .rodata.langID
+                0x00012b8c        0x4 ./src/descriptors.o
+ .rodata.iManufacturer
+                0x00012b90       0x36 ./src/descriptors.o
+ *fill*         0x00012bc6        0x2 
+ .rodata.iProduct
+                0x00012bc8       0x38 ./src/descriptors.o
+ .rodata.iSerialNumber
+                0x00012c00       0x1c ./src/descriptors.o
+ .rodata.USBDESC_strings
+                0x00012c1c       0x10 ./src/descriptors.o
+                0x00012c1c                USBDESC_strings
+ .rodata.USBDESC_bufferingMultiplier
+                0x00012c2c        0x6 ./src/descriptors.o
+                0x00012c2c                USBDESC_bufferingMultiplier
+ *fill*         0x00012c32        0x2 
+ .rodata        0x00012c34       0x42 ./src/main.o
+ *fill*         0x00012c76        0x2 
+ .rodata.callbacks
+                0x00012c78       0x14 ./src/main.o
+ .rodata.usbInitStruct
+                0x00012c8c       0x1c ./src/main.o
+                0x00012c8c                usbInitStruct
+ .rodata        0x00012ca8       0x65 ./src/my_timer.o
+ *fill*         0x00012d0d        0x3 
+ .rodata        0x00012d10      0x15f ./src/tester.o
+ .rodata.str1.1
+                0x00012e6f        0x2 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+ *fill*         0x00012e71        0x3 
+ .rodata._global_impure_ptr
+                0x00012e74        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+                0x00012e74                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x00012e78        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .eh_frame      0x00012e78        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+
+.glue_7         0x00012e7c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00012e7c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00012e7c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00012e7c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00012e7c        0x0
+ .iplt          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00012e7c                __exidx_start = .
+
+.ARM.exidx      0x00012e7c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00012e7c        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x00012e84                __exidx_end = .
+                0x00012e84                __etext = .
+
+.rel.dyn        0x00012e84        0x0
+ .rel.iplt      0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.data           0x20000000     0x16a4 load address 0x00012e84
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.SystemHFXOClock
+                0x20000000        0x4 ./CMSIS/EFM32GG/system_efm32gg.o
+ .data.SystemLFXOClock
+                0x20000004        0x4 ./CMSIS/EFM32GG/system_efm32gg.o
+ .data.SystemCoreClock
+                0x20000008        0x4 ./CMSIS/EFM32GG/system_efm32gg.o
+                0x20000008                SystemCoreClock
+ .data.cdcLineCoding
+                0x2000000c        0x8 ./Drivers/cdc.o
+ .data.usbRxBuffer
+                0x20000014        0x8 ./Drivers/cdc.o
+ .data.uartRxBuffer
+                0x2000001c        0x8 ./Drivers/cdc.o
+ .data.pCbw     0x20000024        0x4 ./Drivers/msdd.o
+ .data.pCsw     0x20000028        0x4 ./Drivers/msdd.o
+ .data.pCmdStatus
+                0x2000002c        0x4 ./Drivers/msdd.o
+ .data.turResponse
+                0x20000030        0x1 ./Drivers/msdd.o
+ *fill*         0x20000031        0x3 
+ .data.dev      0x20000034        0x4 ./emusb/em_usbd.o
+                0x20000034                dev
+ .data.Tab_Voltage
+                0x20000038     0x1002 ./src/STC3105.o
+                0x20000038                Tab_Voltage
+ *fill*         0x2000103a        0x2 
+ .data.MODBUS_CS1_ok
+                0x2000103c        0x7 ./src/main.o
+                0x2000103c                MODBUS_CS1_ok
+ *fill*         0x20001043        0x1 
+ .data.MODBUS_Blad
+                0x20001044        0x5 ./src/main.o
+                0x20001044                MODBUS_Blad
+ *fill*         0x20001049        0x3 
+ .data.storage  0x2000104c        0x4 ./src/msddmedia.o
+ .data.flashPageSize
+                0x20001050        0x4 ./src/msddmedia.o
+ .data.impure_data
+                0x20001054       0x60 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+                0x200010b4                . = ALIGN (0x4)
+ *(.ram)
+ .ram           0x200010b4      0x56c ./emlib/em_msc.o
+                0x200010b4                mscRfAssertEFM
+                0x200010c0                MSC_LoadVerifyAddress
+                0x20001140                MSC_LoadWriteData
+                0x200013a4                MSC_WriteWordI
+                0x200014b0                MSC_ErasePage
+                0x2000157c                MSC_WriteWord
+                0x200015a0                MSC_WriteWordFast
+                0x200015c4                MSC_MassErase
+ .ram           0x20001620       0x54 ./src/msddmedia.o
+                0x20001620                FlushFlash
+ *fill*         0x20001674        0x4 
+ .ram.__stub    0x20001678       0x20 linker stubs
+                0x20001698                . = ALIGN (0x4)
+                0x20001698                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20001698                PROVIDE (__preinit_array_end, .)
+                0x20001698                . = ALIGN (0x4)
+                0x20001698                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x20001698        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+                0x2000169c                PROVIDE (__init_array_end, .)
+                0x2000169c                . = ALIGN (0x4)
+                0x2000169c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x2000169c        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+                0x200016a0                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x200016a0        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .jcr           0x200016a0        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+                0x200016a4                . = ALIGN (0x4)
+                0x200016a4                __data_end__ = .
+
+.igot.plt       0x200016a4        0x0 load address 0x00014528
+ .igot.plt      0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+
+.bss            0x20001700     0x2914 load address 0x00014600
+                0x20001700                . = ALIGN (0x4)
+                0x20001700                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20001700       0x1c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .bss.usbRxBuffer0
+                0x2000171c       0x40 ./Drivers/cdc.o
+ .bss.usbRxBuffer1
+                0x2000175c       0x40 ./Drivers/cdc.o
+ .bss.uartRxBuffer0
+                0x2000179c       0x80 ./Drivers/cdc.o
+ .bss.uartRxBuffer1
+                0x2000181c       0x80 ./Drivers/cdc.o
+ .bss.usbRxIndex
+                0x2000189c        0x4 ./Drivers/cdc.o
+ .bss.usbBytesReceived
+                0x200018a0        0x4 ./Drivers/cdc.o
+ .bss.uartRxIndex
+                0x200018a4        0x4 ./Drivers/cdc.o
+ .bss.uartRxCount
+                0x200018a8        0x4 ./Drivers/cdc.o
+ .bss.LastUsbTxCnt
+                0x200018ac        0x4 ./Drivers/cdc.o
+ .bss.dmaRxCompleted
+                0x200018b0        0x1 ./Drivers/cdc.o
+ .bss.usbRxActive
+                0x200018b1        0x1 ./Drivers/cdc.o
+ .bss.dmaTxActive
+                0x200018b2        0x1 ./Drivers/cdc.o
+ .bss.usbTxActive
+                0x200018b3        0x1 ./Drivers/cdc.o
+ .bss.dmaRxActive
+                0x200018b4        0x1 ./Drivers/cdc.o
+ *fill*         0x200018b5        0x3 
+ .bss.DmaTxCallBack
+                0x200018b8        0xc ./Drivers/cdc.o
+ .bss.DmaRxCallBack
+                0x200018c4        0xc ./Drivers/cdc.o
+ .bss.cbw       0x200018d0       0x40 ./Drivers/msdd.o
+ .bss.csw       0x20001910        0xd ./Drivers/msdd.o
+ *fill*         0x2000191d        0x3 
+ .bss.mediaBuffer
+                0x20001920     0x1000 ./Drivers/msdd.o
+ .bss.CmdStatus
+                0x20002920       0x18 ./Drivers/msdd.o
+ .bss.savedState
+                0x20002938        0x1 ./Drivers/msdd.o
+ *fill*         0x20002939        0x3 
+ .bss.ledPort   0x2000293c        0x4 ./Drivers/msdd.o
+ .bss.ledPin    0x20002940        0x4 ./Drivers/msdd.o
+ .bss.msdState  0x20002944        0x1 ./Drivers/msdd.o
+ *fill*         0x20002945        0x3 
+ .bss.pSenseData
+                0x20002948        0x4 ./Drivers/msdd.o
+ .bss.len.6305  0x2000294c        0x4 ./Drivers/msdd.o
+ .bss.tmp.6318  0x20002950        0x4 ./Drivers/msdd.o
+ .bss.ReadCapData.6347
+                0x20002954        0x8 ./Drivers/msdd.o
+ .bss.i2cTransfer
+                0x2000295c       0x18 ./emlib/em_i2c.o
+ .bss.device    0x20002974      0x148 ./emusb/em_usbd.o
+ .bss.txBuf     0x20002abc        0x4 ./emusb/em_usbdch9.o
+ .bss.callback.5821
+                0x20002ac0        0x4 ./emusb/em_usbdep.o
+ .bss.statusIn.5819
+                0x20002ac4        0x1 ./emusb/em_usbdep.o
+ *fill*         0x20002ac5        0x3 
+ .bss.xferred.5820
+                0x20002ac8        0x4 ./emusb/em_usbdep.o
+ .bss.USBD_poweredDown
+                0x20002acc        0x1 ./emusb/em_usbdint.o
+                0x20002acc                USBD_poweredDown
+ *fill*         0x20002acd        0x3 
+ .bss.x_USB_GINTMSK
+                0x20002ad0        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_GOTGCTL
+                0x20002ad4        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_GAHBCFG
+                0x20002ad8        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_GUSBCFG
+                0x20002adc        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_GRXFSIZ
+                0x20002ae0        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_GNPTXFSIZ
+                0x20002ae4        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_DCFG
+                0x20002ae8        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_DCTL
+                0x20002aec        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_DAINTMSK
+                0x20002af0        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_DIEPMSK
+                0x20002af4        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_DOEPMSK
+                0x20002af8        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_PCGCCTL
+                0x20002afc        0x4 ./emusb/em_usbdint.o
+ .bss.x_USB_EP_CTL
+                0x20002b00       0x14 ./emusb/em_usbdint.o
+ .bss.x_USB_EP_TSIZ
+                0x20002b14       0x14 ./emusb/em_usbdint.o
+ .bss.x_USB_EP_DMAADDR
+                0x20002b28       0x14 ./emusb/em_usbdint.o
+ .bss.x_USB_DIEPTXFS
+                0x20002b3c       0x14 ./emusb/em_usbdint.o
+ .bss.cmuStatus
+                0x20002b50        0x4 ./emusb/em_usbdint.o
+ .bss.timers    0x20002b54       0x20 ./emusb/em_usbtimer.o
+ .bss.head      0x20002b74        0x4 ./emusb/em_usbtimer.o
+ .bss.ticksPrMs
+                0x20002b78        0x4 ./emusb/em_usbtimer.o
+ .bss.ticksPr1us
+                0x20002b7c        0x4 ./emusb/em_usbtimer.o
+ .bss.ticksPr10us
+                0x20002b80        0x4 ./emusb/em_usbtimer.o
+ .bss.ticksPr100us
+                0x20002b84        0x4 ./emusb/em_usbtimer.o
+ .bss.gpioCallbacks
+                0x20002b88       0x40 ./src/gpiointerrupt.o
+ .bss.flashPageBuf
+                0x20002bc8     0x1000 ./src/msddmedia.o
+ .bss.numSectors
+                0x20003bc8        0x4 ./src/msddmedia.o
+ .bss.buffer.5863
+                0x20003bcc        0x4 ./src/vud.o
+ *(COMMON)
+ *fill*         0x20003bd0       0x30 
+ COMMON         0x20003c00      0x200 ./Drivers/dmactrl.o
+                0x20003c00                dmaControlBlock
+ COMMON         0x20003e00       0x70 ./src/ADC_EFM32.o
+                0x20003e00                U10
+                0x20003e09                flagai2c_timeout
+                0x20003e0a                PP_ADC_RDY
+                0x20003e0c                U17
+                0x20003e18                Tester
+                0x20003e38                U30
+                0x20003e41                PP_FLAGS
+                0x20003e44                U18
+                0x20003e50                U22
+                0x20003e59                ret
+                0x20003e5a                clock
+                0x20003e5c                i2cTransfert
+ COMMON         0x20003e70       0xdc ./src/Modbus.o
+                0x20003e70                Modbus_Buffor_Tab
+                0x20003e84                Modbus_Register
+ COMMON         0x20003f4c       0x1f ./src/RS485.o
+                0x20003f4c                RxBuffor
+                0x20003f5c                TxBuffor
+ *fill*         0x20003f6b        0x1 
+ COMMON         0x20003f6c       0x15 ./src/STC3105.o
+                0x20003f6c                i2cTransfertSTC3105
+                0x20003f80                statusSTC3105
+ *fill*         0x20003f81        0x3 
+ COMMON         0x20003f84       0x65 ./src/main.o
+                0x20003f84                flaga_zadan
+                0x20003f8c                Tab_zadan
+                0x20003fc0                bufferodbior
+                0x20003fd0                profile2
+                0x20003fdf                aktualne_zadanie
+                0x20003fe0                aktualne_podzadanie
+                0x20003fe1                index_zadan
+                0x20003fe4                msTicks
+                0x20003fe8                index_podzanan
+ *fill*         0x20003fe9        0x3 
+ COMMON         0x20003fec        0x8 ./src/msddmedia.o
+                0x20003fec                flashStatus
+ COMMON         0x20003ff4       0x1f ./src/tester.o
+                0x20003ff4                tmp_profile
+                0x20004004                profile1
+                0x20004014                . = ALIGN (0x4)
+ *fill*         0x20004013        0x1 
+                0x20004014                __bss_end__ = .
+
+.heap           0x20004018      0xc00
+                0x20004018                __HeapBase = .
+                0x20004018                __end__ = .
+                0x20004018                end = __end__
+                0x20004018                _end = __end__
+ *(.heap*)
+ .heap          0x20004018      0xc00 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+                0x20004c18                __HeapLimit = .
+
+.stack_dummy    0x20004018      0x400
+ *(.stack*)
+ .stack         0x20004018      0x400 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+                0x20020000                __StackTop = (ORIGIN (RAM) + 0x20000)
+                0x2001fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20020000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x00000001                ASSERT ((0x100000 >= (__etext + SIZEOF (.data))), FLASH memory overflowed !)
+OUTPUT(TesterTelcor.axf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x33 ./BSP/bsp_stk_leds.o
+ .ARM.attributes
+                0x00000098       0x33 ./BSP/bsp_trace.o
+ .ARM.attributes
+                0x000000cb       0x1b ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .ARM.attributes
+                0x000000e6       0x33 ./CMSIS/EFM32GG/system_efm32gg.o
+ .ARM.attributes
+                0x00000119       0x33 ./Drivers/cdc.o
+ .ARM.attributes
+                0x0000014c       0x33 ./Drivers/dmactrl.o
+ .ARM.attributes
+                0x0000017f       0x33 ./Drivers/msdd.o
+ .ARM.attributes
+                0x000001b2       0x33 ./Drivers/segmentlcd.o
+ .ARM.attributes
+                0x000001e5       0x33 ./emlib/em_adc.o
+ .ARM.attributes
+                0x00000218       0x33 ./emlib/em_cmu.o
+ .ARM.attributes
+                0x0000024b       0x33 ./emlib/em_core.o
+ .ARM.attributes
+                0x0000027e       0x33 ./emlib/em_dma.o
+ .ARM.attributes
+                0x000002b1       0x33 ./emlib/em_gpio.o
+ .ARM.attributes
+                0x000002e4       0x33 ./emlib/em_i2c.o
+ .ARM.attributes
+                0x00000317       0x33 ./emlib/em_lcd.o
+ .ARM.attributes
+                0x0000034a       0x33 ./emlib/em_msc.o
+ .ARM.attributes
+                0x0000037d       0x33 ./emlib/em_system.o
+ .ARM.attributes
+                0x000003b0       0x33 ./emlib/em_timer.o
+ .ARM.attributes
+                0x000003e3       0x33 ./emlib/em_usart.o
+ .ARM.attributes
+                0x00000416       0x33 ./emusb/em_usbd.o
+ .ARM.attributes
+                0x00000449       0x33 ./emusb/em_usbdch9.o
+ .ARM.attributes
+                0x0000047c       0x33 ./emusb/em_usbdep.o
+ .ARM.attributes
+                0x000004af       0x33 ./emusb/em_usbdint.o
+ .ARM.attributes
+                0x000004e2       0x33 ./emusb/em_usbhal.o
+ .ARM.attributes
+                0x00000515       0x33 ./emusb/em_usbtimer.o
+ .ARM.attributes
+                0x00000548       0x33 ./src/ADC_EFM32.o
+ .ARM.attributes
+                0x0000057b       0x33 ./src/MCP23017.o
+ .ARM.attributes
+                0x000005ae       0x33 ./src/Modbus.o
+ .ARM.attributes
+                0x000005e1       0x33 ./src/RS485.o
+ .ARM.attributes
+                0x00000614       0x33 ./src/STC3105.o
+ .ARM.attributes
+                0x00000647       0x33 ./src/descriptors.o
+ .ARM.attributes
+                0x0000067a       0x33 ./src/gpiointerrupt.o
+ .ARM.attributes
+                0x000006ad       0x33 ./src/main.o
+ .ARM.attributes
+                0x000006e0       0x33 ./src/msddmedia.o
+ .ARM.attributes
+                0x00000713       0x33 ./src/myUSB.o
+ .ARM.attributes
+                0x00000746       0x33 ./src/my_timer.o
+ .ARM.attributes
+                0x00000779       0x33 ./src/tester.o
+ .ARM.attributes
+                0x000007ac       0x33 ./src/vud.o
+ .ARM.attributes
+                0x000007df       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000007fc       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000819       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000836       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000853       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000870       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000088d       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x000008aa       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x000008c7       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000008f4       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000921       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000094e       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000097b       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000009a8       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+ .ARM.attributes
+                0x000009d5       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000a02       0x2d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000a2f       0x1d c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/crtn.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./BSP/bsp_stk_leds.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./BSP/bsp_trace.o
+ .comment       0x00000000       0x71 ./CMSIS/EFM32GG/system_efm32gg.o
+ .comment       0x00000000       0x71 ./Drivers/cdc.o
+ .comment       0x00000000       0x71 ./Drivers/dmactrl.o
+ .comment       0x00000000       0x71 ./Drivers/msdd.o
+ .comment       0x00000000       0x71 ./Drivers/segmentlcd.o
+ .comment       0x00000000       0x71 ./emlib/em_adc.o
+ .comment       0x00000000       0x71 ./emlib/em_cmu.o
+ .comment       0x00000000       0x71 ./emlib/em_core.o
+ .comment       0x00000000       0x71 ./emlib/em_dma.o
+ .comment       0x00000000       0x71 ./emlib/em_gpio.o
+ .comment       0x00000000       0x71 ./emlib/em_i2c.o
+ .comment       0x00000000       0x71 ./emlib/em_lcd.o
+ .comment       0x00000000       0x71 ./emlib/em_msc.o
+ .comment       0x00000000       0x71 ./emlib/em_system.o
+ .comment       0x00000000       0x71 ./emlib/em_timer.o
+ .comment       0x00000000       0x71 ./emlib/em_usart.o
+ .comment       0x00000000       0x71 ./emusb/em_usbd.o
+ .comment       0x00000000       0x71 ./emusb/em_usbdch9.o
+ .comment       0x00000000       0x71 ./emusb/em_usbdep.o
+ .comment       0x00000000       0x71 ./emusb/em_usbdint.o
+ .comment       0x00000000       0x71 ./emusb/em_usbhal.o
+ .comment       0x00000000       0x71 ./emusb/em_usbtimer.o
+ .comment       0x00000000       0x71 ./src/ADC_EFM32.o
+ .comment       0x00000000       0x71 ./src/MCP23017.o
+ .comment       0x00000000       0x71 ./src/Modbus.o
+ .comment       0x00000000       0x71 ./src/RS485.o
+ .comment       0x00000000       0x71 ./src/STC3105.o
+ .comment       0x00000000       0x71 ./src/descriptors.o
+ .comment       0x00000000       0x71 ./src/gpiointerrupt.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 ./src/msddmedia.o
+ .comment       0x00000000       0x71 ./src/myUSB.o
+ .comment       0x00000000       0x71 ./src/my_timer.o
+ .comment       0x00000000       0x71 ./src/tester.o
+ .comment       0x00000000       0x71 ./src/vud.o
+
+.debug_info     0x00000000    0x2038f
+ .debug_info    0x00000000      0x7b4 ./BSP/bsp_stk_leds.o
+ .debug_info    0x000007b4      0xc95 ./BSP/bsp_trace.o
+ .debug_info    0x00001449       0xa3 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .debug_info    0x000014ec      0x582 ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_info    0x00001a6e     0x12ad ./Drivers/cdc.o
+ .debug_info    0x00002d1b      0x129 ./Drivers/dmactrl.o
+ .debug_info    0x00002e44     0x1a58 ./Drivers/msdd.o
+ .debug_info    0x0000489c     0x11d9 ./Drivers/segmentlcd.o
+ .debug_info    0x00005a75      0xa91 ./emlib/em_adc.o
+ .debug_info    0x00006506     0x154f ./emlib/em_cmu.o
+ .debug_info    0x00007a55      0xcfe ./emlib/em_core.o
+ .debug_info    0x00008753     0x12eb ./emlib/em_dma.o
+ .debug_info    0x00009a3e      0x65f ./emlib/em_gpio.o
+ .debug_info    0x0000a09d      0x86c ./emlib/em_i2c.o
+ .debug_info    0x0000a909      0xa3a ./emlib/em_lcd.o
+ .debug_info    0x0000b343      0x80b ./emlib/em_msc.o
+ .debug_info    0x0000bb4e      0x276 ./emlib/em_system.o
+ .debug_info    0x0000bdc4      0x913 ./emlib/em_timer.o
+ .debug_info    0x0000c6d7      0xebf ./emlib/em_usart.o
+ .debug_info    0x0000d596     0x2395 ./emusb/em_usbd.o
+ .debug_info    0x0000f92b     0x1827 ./emusb/em_usbdch9.o
+ .debug_info    0x00011152     0x13d5 ./emusb/em_usbdep.o
+ .debug_info    0x00012527     0x1b9e ./emusb/em_usbdint.o
+ .debug_info    0x000140c5     0x1ad8 ./emusb/em_usbhal.o
+ .debug_info    0x00015b9d      0xf60 ./emusb/em_usbtimer.o
+ .debug_info    0x00016afd      0xc12 ./src/ADC_EFM32.o
+ .debug_info    0x0001770f      0xb33 ./src/MCP23017.o
+ .debug_info    0x00018242      0x2f0 ./src/Modbus.o
+ .debug_info    0x00018532      0xfc0 ./src/RS485.o
+ .debug_info    0x000194f2      0xec4 ./src/STC3105.o
+ .debug_info    0x0001a3b6      0x3e4 ./src/descriptors.o
+ .debug_info    0x0001a79a      0x807 ./src/gpiointerrupt.o
+ .debug_info    0x0001afa1     0x1df5 ./src/main.o
+ .debug_info    0x0001cd96      0x4dd ./src/msddmedia.o
+ .debug_info    0x0001d273      0x189 ./src/myUSB.o
+ .debug_info    0x0001d3fc      0x961 ./src/my_timer.o
+ .debug_info    0x0001dd5d     0x2352 ./src/tester.o
+ .debug_info    0x000200af      0x2e0 ./src/vud.o
+
+.debug_abbrev   0x00000000     0x4f65
+ .debug_abbrev  0x00000000      0x181 ./BSP/bsp_stk_leds.o
+ .debug_abbrev  0x00000181      0x17d ./BSP/bsp_trace.o
+ .debug_abbrev  0x000002fe       0x14 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .debug_abbrev  0x00000312      0x16d ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_abbrev  0x0000047f      0x252 ./Drivers/cdc.o
+ .debug_abbrev  0x000006d1       0x98 ./Drivers/dmactrl.o
+ .debug_abbrev  0x00000769      0x388 ./Drivers/msdd.o
+ .debug_abbrev  0x00000af1      0x17b ./Drivers/segmentlcd.o
+ .debug_abbrev  0x00000c6c      0x1b0 ./emlib/em_adc.o
+ .debug_abbrev  0x00000e1c      0x2d1 ./emlib/em_cmu.o
+ .debug_abbrev  0x000010ed      0x239 ./emlib/em_core.o
+ .debug_abbrev  0x00001326      0x233 ./emlib/em_dma.o
+ .debug_abbrev  0x00001559      0x1c0 ./emlib/em_gpio.o
+ .debug_abbrev  0x00001719      0x23d ./emlib/em_i2c.o
+ .debug_abbrev  0x00001956      0x1a6 ./emlib/em_lcd.o
+ .debug_abbrev  0x00001afc      0x212 ./emlib/em_msc.o
+ .debug_abbrev  0x00001d0e      0x109 ./emlib/em_system.o
+ .debug_abbrev  0x00001e17      0x18e ./emlib/em_timer.o
+ .debug_abbrev  0x00001fa5      0x1c7 ./emlib/em_usart.o
+ .debug_abbrev  0x0000216c      0x41b ./emusb/em_usbd.o
+ .debug_abbrev  0x00002587      0x317 ./emusb/em_usbdch9.o
+ .debug_abbrev  0x0000289e      0x2c2 ./emusb/em_usbdep.o
+ .debug_abbrev  0x00002b60      0x371 ./emusb/em_usbdint.o
+ .debug_abbrev  0x00002ed1      0x38e ./emusb/em_usbhal.o
+ .debug_abbrev  0x0000325f      0x242 ./emusb/em_usbtimer.o
+ .debug_abbrev  0x000034a1      0x1ea ./src/ADC_EFM32.o
+ .debug_abbrev  0x0000368b      0x222 ./src/MCP23017.o
+ .debug_abbrev  0x000038ad      0x111 ./src/Modbus.o
+ .debug_abbrev  0x000039be      0x26b ./src/RS485.o
+ .debug_abbrev  0x00003c29      0x2c1 ./src/STC3105.o
+ .debug_abbrev  0x00003eea       0xe6 ./src/descriptors.o
+ .debug_abbrev  0x00003fd0      0x27b ./src/gpiointerrupt.o
+ .debug_abbrev  0x0000424b      0x3c0 ./src/main.o
+ .debug_abbrev  0x0000460b      0x1da ./src/msddmedia.o
+ .debug_abbrev  0x000047e5       0x9f ./src/myUSB.o
+ .debug_abbrev  0x00004884      0x1c2 ./src/my_timer.o
+ .debug_abbrev  0x00004a46      0x3cf ./src/tester.o
+ .debug_abbrev  0x00004e15      0x150 ./src/vud.o
+
+.debug_loc      0x00000000     0xa7a2
+ .debug_loc     0x00000000      0x3cc ./BSP/bsp_stk_leds.o
+ .debug_loc     0x000003cc       0xa0 ./BSP/bsp_trace.o
+ .debug_loc     0x0000046c      0x31c ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_loc     0x00000788      0x34c ./Drivers/cdc.o
+ .debug_loc     0x00000ad4      0x45e ./Drivers/msdd.o
+ .debug_loc     0x00000f32      0x60c ./Drivers/segmentlcd.o
+ .debug_loc     0x0000153e      0x23c ./emlib/em_adc.o
+ .debug_loc     0x0000177a      0xd40 ./emlib/em_cmu.o
+ .debug_loc     0x000024ba      0x844 ./emlib/em_core.o
+ .debug_loc     0x00002cfe      0x6cc ./emlib/em_dma.o
+ .debug_loc     0x000033ca      0x394 ./emlib/em_gpio.o
+ .debug_loc     0x0000375e      0x2f4 ./emlib/em_i2c.o
+ .debug_loc     0x00003a52      0x5b0 ./emlib/em_lcd.o
+ .debug_loc     0x00004002      0x358 ./emlib/em_msc.o
+ .debug_loc     0x0000435a       0xac ./emlib/em_system.o
+ .debug_loc     0x00004406      0x28c ./emlib/em_timer.o
+ .debug_loc     0x00004692      0x6ba ./emlib/em_usart.o
+ .debug_loc     0x00004d4c      0xd02 ./emusb/em_usbd.o
+ .debug_loc     0x00005a4e      0x644 ./emusb/em_usbdch9.o
+ .debug_loc     0x00006092      0x2bc ./emusb/em_usbdep.o
+ .debug_loc     0x0000634e      0x854 ./emusb/em_usbdint.o
+ .debug_loc     0x00006ba2      0x5fc ./emusb/em_usbhal.o
+ .debug_loc     0x0000719e      0x600 ./emusb/em_usbtimer.o
+ .debug_loc     0x0000779e      0x158 ./src/ADC_EFM32.o
+ .debug_loc     0x000078f6      0x16c ./src/MCP23017.o
+ .debug_loc     0x00007a62       0xfc ./src/Modbus.o
+ .debug_loc     0x00007b5e      0x5c0 ./src/RS485.o
+ .debug_loc     0x0000811e      0x5ac ./src/STC3105.o
+ .debug_loc     0x000086ca      0x3d8 ./src/gpiointerrupt.o
+ .debug_loc     0x00008aa2      0x538 ./src/main.o
+ .debug_loc     0x00008fda      0x214 ./src/msddmedia.o
+ .debug_loc     0x000091ee       0x5c ./src/myUSB.o
+ .debug_loc     0x0000924a      0x1b4 ./src/my_timer.o
+ .debug_loc     0x000093fe     0x1328 ./src/tester.o
+ .debug_loc     0x0000a726       0x7c ./src/vud.o
+
+.debug_aranges  0x00000000     0x14a8
+ .debug_aranges
+                0x00000000       0x78 ./BSP/bsp_stk_leds.o
+ .debug_aranges
+                0x00000078       0x28 ./BSP/bsp_trace.o
+ .debug_aranges
+                0x000000a0       0x20 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .debug_aranges
+                0x000000c0       0x70 ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_aranges
+                0x00000130       0x70 ./Drivers/cdc.o
+ .debug_aranges
+                0x000001a0       0x18 ./Drivers/dmactrl.o
+ .debug_aranges
+                0x000001b8       0x90 ./Drivers/msdd.o
+ .debug_aranges
+                0x00000248       0xc0 ./Drivers/segmentlcd.o
+ .debug_aranges
+                0x00000308       0x50 ./emlib/em_adc.o
+ .debug_aranges
+                0x00000358      0x170 ./emlib/em_cmu.o
+ .debug_aranges
+                0x000004c8       0xe8 ./emlib/em_core.o
+ .debug_aranges
+                0x000005b0       0xc0 ./emlib/em_dma.o
+ .debug_aranges
+                0x00000670       0x70 ./emlib/em_gpio.o
+ .debug_aranges
+                0x000006e0       0x60 ./emlib/em_i2c.o
+ .debug_aranges
+                0x00000740       0xa0 ./emlib/em_lcd.o
+ .debug_aranges
+                0x000007e0       0x70 ./emlib/em_msc.o
+ .debug_aranges
+                0x00000850       0x28 ./emlib/em_system.o
+ .debug_aranges
+                0x00000878       0x58 ./emlib/em_timer.o
+ .debug_aranges
+                0x000008d0       0xb8 ./emlib/em_usart.o
+ .debug_aranges
+                0x00000988      0x160 ./emusb/em_usbd.o
+ .debug_aranges
+                0x00000ae8       0xb0 ./emusb/em_usbdch9.o
+ .debug_aranges
+                0x00000b98       0x58 ./emusb/em_usbdep.o
+ .debug_aranges
+                0x00000bf0       0xf8 ./emusb/em_usbdint.o
+ .debug_aranges
+                0x00000ce8       0xb0 ./emusb/em_usbhal.o
+ .debug_aranges
+                0x00000d98       0xa8 ./emusb/em_usbtimer.o
+ .debug_aranges
+                0x00000e40       0x38 ./src/ADC_EFM32.o
+ .debug_aranges
+                0x00000e78       0x40 ./src/MCP23017.o
+ .debug_aranges
+                0x00000eb8       0x30 ./src/Modbus.o
+ .debug_aranges
+                0x00000ee8       0xb0 ./src/RS485.o
+ .debug_aranges
+                0x00000f98       0xa8 ./src/STC3105.o
+ .debug_aranges
+                0x00001040       0x18 ./src/descriptors.o
+ .debug_aranges
+                0x00001058       0x78 ./src/gpiointerrupt.o
+ .debug_aranges
+                0x000010d0       0xa8 ./src/main.o
+ .debug_aranges
+                0x00001178       0x58 ./src/msddmedia.o
+ .debug_aranges
+                0x000011d0       0x20 ./src/myUSB.o
+ .debug_aranges
+                0x000011f0       0x40 ./src/my_timer.o
+ .debug_aranges
+                0x00001230      0x250 ./src/tester.o
+ .debug_aranges
+                0x00001480       0x28 ./src/vud.o
+
+.debug_ranges   0x00000000     0x1228
+ .debug_ranges  0x00000000       0x68 ./BSP/bsp_stk_leds.o
+ .debug_ranges  0x00000068       0x18 ./BSP/bsp_trace.o
+ .debug_ranges  0x00000080       0x60 ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_ranges  0x000000e0       0x60 ./Drivers/cdc.o
+ .debug_ranges  0x00000140       0x80 ./Drivers/msdd.o
+ .debug_ranges  0x000001c0       0xb0 ./Drivers/segmentlcd.o
+ .debug_ranges  0x00000270       0x40 ./emlib/em_adc.o
+ .debug_ranges  0x000002b0      0x160 ./emlib/em_cmu.o
+ .debug_ranges  0x00000410       0xd8 ./emlib/em_core.o
+ .debug_ranges  0x000004e8       0xb0 ./emlib/em_dma.o
+ .debug_ranges  0x00000598       0x60 ./emlib/em_gpio.o
+ .debug_ranges  0x000005f8       0x50 ./emlib/em_i2c.o
+ .debug_ranges  0x00000648       0x90 ./emlib/em_lcd.o
+ .debug_ranges  0x000006d8       0x60 ./emlib/em_msc.o
+ .debug_ranges  0x00000738       0x18 ./emlib/em_system.o
+ .debug_ranges  0x00000750       0x48 ./emlib/em_timer.o
+ .debug_ranges  0x00000798       0xa8 ./emlib/em_usart.o
+ .debug_ranges  0x00000840      0x150 ./emusb/em_usbd.o
+ .debug_ranges  0x00000990       0xa0 ./emusb/em_usbdch9.o
+ .debug_ranges  0x00000a30       0x48 ./emusb/em_usbdep.o
+ .debug_ranges  0x00000a78       0xe8 ./emusb/em_usbdint.o
+ .debug_ranges  0x00000b60       0xa0 ./emusb/em_usbhal.o
+ .debug_ranges  0x00000c00       0x98 ./emusb/em_usbtimer.o
+ .debug_ranges  0x00000c98       0x28 ./src/ADC_EFM32.o
+ .debug_ranges  0x00000cc0       0x30 ./src/MCP23017.o
+ .debug_ranges  0x00000cf0       0x20 ./src/Modbus.o
+ .debug_ranges  0x00000d10       0xa0 ./src/RS485.o
+ .debug_ranges  0x00000db0       0x98 ./src/STC3105.o
+ .debug_ranges  0x00000e48       0x68 ./src/gpiointerrupt.o
+ .debug_ranges  0x00000eb0       0x98 ./src/main.o
+ .debug_ranges  0x00000f48       0x48 ./src/msddmedia.o
+ .debug_ranges  0x00000f90       0x10 ./src/myUSB.o
+ .debug_ranges  0x00000fa0       0x30 ./src/my_timer.o
+ .debug_ranges  0x00000fd0      0x240 ./src/tester.o
+ .debug_ranges  0x00001210       0x18 ./src/vud.o
+
+.debug_line     0x00000000     0xd5d9
+ .debug_line    0x00000000      0x530 ./BSP/bsp_stk_leds.o
+ .debug_line    0x00000530      0x2dd ./BSP/bsp_trace.o
+ .debug_line    0x0000080d       0x72 ./CMSIS/EFM32GG/startup_gcc_efm32gg.o
+ .debug_line    0x0000087f      0x328 ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_line    0x00000ba7      0x56f ./Drivers/cdc.o
+ .debug_line    0x00001116      0x21f ./Drivers/dmactrl.o
+ .debug_line    0x00001335      0x6f0 ./Drivers/msdd.o
+ .debug_line    0x00001a25      0x6dd ./Drivers/segmentlcd.o
+ .debug_line    0x00002102      0x3d3 ./emlib/em_adc.o
+ .debug_line    0x000024d5      0xacc ./emlib/em_cmu.o
+ .debug_line    0x00002fa1      0x617 ./emlib/em_core.o
+ .debug_line    0x000035b8      0x669 ./emlib/em_dma.o
+ .debug_line    0x00003c21      0x54b ./emlib/em_gpio.o
+ .debug_line    0x0000416c      0x4a2 ./emlib/em_i2c.o
+ .debug_line    0x0000460e      0x505 ./emlib/em_lcd.o
+ .debug_line    0x00004b13      0x4d5 ./emlib/em_msc.o
+ .debug_line    0x00004fe8      0x2c7 ./emlib/em_system.o
+ .debug_line    0x000052af      0x5ab ./emlib/em_timer.o
+ .debug_line    0x0000585a      0x60a ./emlib/em_usart.o
+ .debug_line    0x00005e64      0x871 ./emusb/em_usbd.o
+ .debug_line    0x000066d5      0x5cb ./emusb/em_usbdch9.o
+ .debug_line    0x00006ca0      0x41e ./emusb/em_usbdep.o
+ .debug_line    0x000070be      0x79a ./emusb/em_usbdint.o
+ .debug_line    0x00007858      0x6d1 ./emusb/em_usbhal.o
+ .debug_line    0x00007f29      0x52c ./emusb/em_usbtimer.o
+ .debug_line    0x00008455      0x31f ./src/ADC_EFM32.o
+ .debug_line    0x00008774      0x3b4 ./src/MCP23017.o
+ .debug_line    0x00008b28      0x1c6 ./src/Modbus.o
+ .debug_line    0x00008cee      0xb71 ./src/RS485.o
+ .debug_line    0x0000985f      0x4fd ./src/STC3105.o
+ .debug_line    0x00009d5c      0x205 ./src/descriptors.o
+ .debug_line    0x00009f61      0x40d ./src/gpiointerrupt.o
+ .debug_line    0x0000a36e      0x94c ./src/main.o
+ .debug_line    0x0000acba      0x3b6 ./src/msddmedia.o
+ .debug_line    0x0000b070      0x212 ./src/myUSB.o
+ .debug_line    0x0000b282      0x331 ./src/my_timer.o
+ .debug_line    0x0000b5b3     0x1df9 ./src/tester.o
+ .debug_line    0x0000d3ac      0x22d ./src/vud.o
+
+.debug_str      0x00000000     0x7cb6
+ .debug_str     0x00000000      0x74e ./BSP/bsp_stk_leds.o
+                                0x7a2 (size before relaxing)
+ .debug_str     0x0000074e      0x2e0 ./BSP/bsp_trace.o
+                                0x7f5 (size before relaxing)
+ .debug_str     0x00000a2e      0x18f ./CMSIS/EFM32GG/system_efm32gg.o
+                                0x4bc (size before relaxing)
+ .debug_str     0x00000bbd      0xbe8 ./Drivers/cdc.o
+                               0x1268 (size before relaxing)
+ .debug_str     0x000017a5       0x15 ./Drivers/dmactrl.o
+                                0x239 (size before relaxing)
+ .debug_str     0x000017ba      0x745 ./Drivers/msdd.o
+                               0x1170 (size before relaxing)
+ .debug_str     0x00001eff      0x83e ./Drivers/segmentlcd.o
+                                0xdfc (size before relaxing)
+ .debug_str     0x0000273d      0x6ce ./emlib/em_adc.o
+                                0xbe2 (size before relaxing)
+ .debug_str     0x00002e0b      0x94f ./emlib/em_cmu.o
+                               0x1094 (size before relaxing)
+ .debug_str     0x0000375a      0x5de ./emlib/em_core.o
+                                0x853 (size before relaxing)
+ .debug_str     0x00003d38      0x300 ./emlib/em_dma.o
+                                0xd8c (size before relaxing)
+ .debug_str     0x00004038      0x14c ./emlib/em_gpio.o
+                                0x603 (size before relaxing)
+ .debug_str     0x00004184      0x311 ./emlib/em_i2c.o
+                                0x80f (size before relaxing)
+ .debug_str     0x00004495      0x345 ./emlib/em_lcd.o
+                                0x8fc (size before relaxing)
+ .debug_str     0x000047da      0x22a ./emlib/em_msc.o
+                                0x765 (size before relaxing)
+ .debug_str     0x00004a04       0xa4 ./emlib/em_system.o
+                                0x2e7 (size before relaxing)
+ .debug_str     0x00004aa8      0x749 ./emlib/em_timer.o
+                                0x997 (size before relaxing)
+ .debug_str     0x000051f1      0x5a2 ./emlib/em_usart.o
+                                0xe05 (size before relaxing)
+ .debug_str     0x00005793      0xb31 ./emusb/em_usbd.o
+                               0x1876 (size before relaxing)
+ .debug_str     0x000062c4      0x159 ./emusb/em_usbdch9.o
+                                0xea6 (size before relaxing)
+ .debug_str     0x0000641d       0x68 ./emusb/em_usbdep.o
+                                0xd82 (size before relaxing)
+ .debug_str     0x00006485      0x37f ./emusb/em_usbdint.o
+                               0x1470 (size before relaxing)
+ .debug_str     0x00006804      0x116 ./emusb/em_usbhal.o
+                               0x1532 (size before relaxing)
+ .debug_str     0x0000691a      0x1d6 ./emusb/em_usbtimer.o
+                                0xef2 (size before relaxing)
+ .debug_str     0x00006af0      0x1ff ./src/ADC_EFM32.o
+                                0xd96 (size before relaxing)
+ .debug_str     0x00006cef       0x7e ./src/MCP23017.o
+                                0x9ff (size before relaxing)
+ .debug_str     0x00006d6d       0xab ./src/Modbus.o
+                                0x291 (size before relaxing)
+ .debug_str     0x00006e18      0x116 ./src/RS485.o
+                                0xb93 (size before relaxing)
+ .debug_str     0x00006f2e      0x1fb ./src/STC3105.o
+                                0xb40 (size before relaxing)
+ .debug_str     0x00007129       0x97 ./src/descriptors.o
+                                0x381 (size before relaxing)
+ .debug_str     0x000071c0      0x10f ./src/gpiointerrupt.o
+                                0x6de (size before relaxing)
+ .debug_str     0x000072cf      0x2fc ./src/main.o
+                               0x18f1 (size before relaxing)
+ .debug_str     0x000075cb       0xf6 ./src/msddmedia.o
+                                0x414 (size before relaxing)
+ .debug_str     0x000076c1       0x20 ./src/myUSB.o
+                                0x3bb (size before relaxing)
+ .debug_str     0x000076e1       0x35 ./src/my_timer.o
+                                0xa7f (size before relaxing)
+ .debug_str     0x00007716      0x56e ./src/tester.o
+                               0x1914 (size before relaxing)
+ .debug_str     0x00007c84       0x32 ./src/vud.o
+                                0x431 (size before relaxing)
+
+.debug_frame    0x00000000     0x50b4
+ .debug_frame   0x00000000      0x1c4 ./BSP/bsp_stk_leds.o
+ .debug_frame   0x000001c4       0x58 ./BSP/bsp_trace.o
+ .debug_frame   0x0000021c      0x180 ./CMSIS/EFM32GG/system_efm32gg.o
+ .debug_frame   0x0000039c      0x1a8 ./Drivers/cdc.o
+ .debug_frame   0x00000544      0x220 ./Drivers/msdd.o
+ .debug_frame   0x00000764      0x2ec ./Drivers/segmentlcd.o
+ .debug_frame   0x00000a50      0x110 ./emlib/em_adc.o
+ .debug_frame   0x00000b60      0x62c ./emlib/em_cmu.o
+ .debug_frame   0x0000118c      0x3c4 ./emlib/em_core.o
+ .debug_frame   0x00001550      0x320 ./emlib/em_dma.o
+ .debug_frame   0x00001870      0x1b0 ./emlib/em_gpio.o
+ .debug_frame   0x00001a20      0x164 ./emlib/em_i2c.o
+ .debug_frame   0x00001b84      0x294 ./emlib/em_lcd.o
+ .debug_frame   0x00001e18      0x198 ./emlib/em_msc.o
+ .debug_frame   0x00001fb0       0x5c ./emlib/em_system.o
+ .debug_frame   0x0000200c      0x134 ./emlib/em_timer.o
+ .debug_frame   0x00002140      0x308 ./emlib/em_usart.o
+ .debug_frame   0x00002448      0x5ec ./emusb/em_usbd.o
+ .debug_frame   0x00002a34      0x2d8 ./emusb/em_usbdch9.o
+ .debug_frame   0x00002d0c      0x148 ./emusb/em_usbdep.o
+ .debug_frame   0x00002e54      0x3f4 ./emusb/em_usbdint.o
+ .debug_frame   0x00003248      0x2d0 ./emusb/em_usbhal.o
+ .debug_frame   0x00003518      0x2c4 ./emusb/em_usbtimer.o
+ .debug_frame   0x000037dc       0xa8 ./src/ADC_EFM32.o
+ .debug_frame   0x00003884       0xbc ./src/MCP23017.o
+ .debug_frame   0x00003940       0x80 ./src/Modbus.o
+ .debug_frame   0x000039c0      0x2b4 ./src/RS485.o
+ .debug_frame   0x00003c74      0x2a0 ./src/STC3105.o
+ .debug_frame   0x00003f14      0x1cc ./src/gpiointerrupt.o
+ .debug_frame   0x000040e0      0x2a4 ./src/main.o
+ .debug_frame   0x00004384      0x118 ./src/msddmedia.o
+ .debug_frame   0x0000449c       0x38 ./src/myUSB.o
+ .debug_frame   0x000044d4       0xd0 ./src/my_timer.o
+ .debug_frame   0x000045a4      0x9d4 ./src/tester.o
+ .debug_frame   0x00004f78       0x50 ./src/vud.o
+ .debug_frame   0x00004fc8       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00004ff0       0x2c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000501c       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x00005044       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00005064       0x30 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-s_modf.o)
+ .debug_frame   0x00005094       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a(lib_a-strlen.o)
