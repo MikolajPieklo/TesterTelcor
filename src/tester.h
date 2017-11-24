@@ -75,7 +75,7 @@ typedef struct
 	eZadanie STC3105_Get_Voltage;
 	eZadanie STC3105_Get_Current;
 	eZadanie STC3105_Get_Counter;
-	eZadanie STC3105_Get_Culomb;
+	eZadanie STC3105_Get_Charge;
 	eZadanie STC3105_Restart;
 	eZadanie STC3105_Get_Config;
 }tZadanie;
@@ -87,7 +87,9 @@ typedef struct
 	float VBAT;
 	float I_TC;
 	uint16_t STC3105_Voltage;
-	float STC3105_Current;
+	uint16_t STC3105_Current;
+	uint16_t STC3105_Counter;
+	uint16_t STC3105_Charge;
 	uint16_t ui16Buffor;
 	uint8_t ui8Buffor_Hi;
 	uint8_t ui8Buffor_Lo;

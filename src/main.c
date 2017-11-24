@@ -41,7 +41,6 @@
 
 
 ADC_profile profile2;
-void PrintfUSBfloat2char(float value, uint8_t typ_pomiaru, uint8_t PIN);
 void PP_Read_Voltage(uint8_t PIN);
 void Main_Zadanie(void);
 void _exit(int code) ///New lib SysCall for GCC
@@ -263,8 +262,7 @@ static int myCallback(USB_Status_TypeDef status, uint32_t xferred,uint32_t remai
 
 					case 0x0012://Zadanie Zasilanie
 						Tester.Zadanie.VZAS1=Ogloszone;
-					break;
-
+						break;
 					case 0x0014:
 						Tester.Zadanie.VZAS2=Ogloszone;
 						break;
@@ -276,6 +274,15 @@ static int myCallback(USB_Status_TypeDef status, uint32_t xferred,uint32_t remai
 						break;
 					case 0x001A:
 						Tester.Zadanie.STC3105_Get_Voltage = Ogloszone;
+						break;
+					case 0x001B:
+						Tester.Zadanie.STC3105_Get_Current = Ogloszone;
+						break;
+					case 0x001C:
+						Tester.Zadanie.STC3105_Get_Counter = Ogloszone;
+						break;
+					case 0x001D:
+						Tester.Zadanie.STC3105_Get_Charge = Ogloszone;
 						break;
 
 					}//end_switch
@@ -355,7 +362,7 @@ int main(void) {
 	/* USBD_Disconnect();         */
 	/* USBTIMER_DelayMs( 1000 );  */
 	/* USBD_Connect();            */
-
+	STC3105_Init_Default();
 
 	for (;;) {
 		Tester_LED_RED();
@@ -364,31 +371,12 @@ int main(void) {
 		USBTIMER_DelayMs(10);
 		Tester_LED_BLUE();
 		USBTIMER_DelayMs(10);
-		/*Tester_Relay_PK1_ON();
-		USBTIMER_DelayMs(500);
-		Tester_Relay_PK1_OFF();
-		USBTIMER_DelayMs(500);
-		Tester_Relay_PK2_ON();
-		USBTIMER_DelayMs(500);
-		Tester_Relay_PK2_OFF();
-		USBTIMER_DelayMs(500);*/
+		//STC3105_Init_Default();
+		//STC3105_GET_VOLTAGE();
+		//STC3105_GET_Register(&STC3105_U1);
+		//STC3105_Get_ID();
 
-		/*RS485_MM_R11();
-		 USBTIMER_DelayMs(10);*/
-		/*Tester_Relay_PK1_ON();
-		USBTIMER_DelayMs(500);
-		Tester_Relay_PK1_OFF();
-		 //Tester_LED_GREEN();
-
-		 USBTIMER_DelayMs(1000);
-		 Tester_Relay_PK2_ON();
-		// Tester_LED_RED();
-		 USBTIMER_DelayMs(500);
-		 Tester_Relay_PK2_OFF();
-		 USBTIMER_DelayMs(1000);*/
-		//Tester_Acces_to_STER();
 		Tester_Acces_to_ALL();
-		//EEPROM_Read(I2C1,Address_MCP23017_U30,MCP23017_GPIOA,&testread,1);
 		Main_Zadanie();
 		MSDD_Handler(); /* Serve the MSD device. */
 	}
@@ -440,109 +428,7 @@ void StateChangeEvent(USBD_State_TypeDef oldState, USBD_State_TypeDef newState) 
 	MSDD_StateChangeEvent(oldState, newState);
 	CDC_StateChangeEvent(oldState, newState);
 }
-void PrintfUSBfloat2char(float value, uint8_t typ_pomiaru, uint8_t PIN) {
-	uint8_t Results[9];
-	uint8_t index = 0;
-	float int_part;
-	float frc_part;
-	uint8_t charPIN[1];
-	switch (PIN) {
-	case 2:
-		charPIN[0] = '1';
-		break;
-	case 4:
-		charPIN[0] = '2';
-		break;
-	case 8:
-		charPIN[0] = '3';
-		break;
-	case 16:
-		charPIN[0] = '4';
-		break;
-	case 32:
-		charPIN[0] = '5';
-		break;
-	case 64:
-		charPIN[0] = '6';
-		break;
-	case 128:
-		charPIN[0] = '7';
-		break;
-	}
 
-	if (typ_pomiaru == 1 && value != 0) {
-		frc_part = modf(value, &int_part);
-		for (index = 0; index < value; index++)
-			;
-		index -= 1;
-		Results[0] = 'V';
-		Results[1] = 'D';
-		Results[2] = 'D';
-		Results[3] = charPIN[0];
-		Results[4] = (uint8_t) (48 + index);
-		Results[5] = 46; //kropka
-		Results[6] = ((uint8_t) 10 * frc_part) + 48;
-		Results[7] =
-				(uint8_t) ((100 * frc_part) - (10 * (Results[6] - 48)) + 48);
-		Results[8] = ' ';
-		USBD_Write(0x81, Results, sizeof(Results), dataSentCallback);
-	}
-	if (typ_pomiaru == 2 && value != 0) {
-		for (index = 0; index < value; index++)
-			;
-		index -= 1;
-		frc_part = modf(value, &int_part);
-		Results[0] = 'T';
-		Results[1] = 'E';
-		Results[2] = 'M';
-		Results[3] = charPIN[0];
-		Results[4] = (uint8_t) (((index - (index % 10)) / 10) + 48);
-		Results[5] = (index % 10) + 48;
-		Results[6] = 46; //kropka
-		Results[7] = ((uint8_t) 10 * frc_part) + 48;
-		Results[8] = ' ';
-		USBD_Write(0x81, Results, sizeof(Results), dataSentCallback);
-	}
-
-	if (typ_pomiaru == 3 && value != 0) {
-		frc_part = modf(value, &int_part);
-		for (index = 0; index < value; index++)
-			;
-		index -= 1;
-
-		Results[0] = 'V';
-		Results[1] = 'R';
-		Results[2] = 'E';
-		Results[3] = charPIN[0];
-		Results[4] = (uint8_t) (48 + index);
-		Results[5] = 46; //kropka
-		Results[6] = ((uint8_t) 10 * frc_part) + 48;
-		Results[7] =
-				(uint8_t) ((100 * frc_part) - (10 * (Results[6] - 48)) + 48);
-		Results[8] = ' ';
-		USBD_Write(0x81, Results, sizeof(Results), dataSentCallback);
-
-	}
-
-	if (typ_pomiaru == 4 && value != 0) {
-		frc_part = modf(value, &int_part);
-		for (index = 0; index < value; index++)
-			;
-		index -= 1;
-
-		Results[0] = 'V';
-		Results[1] = 'A';
-		Results[2] = 'V';
-		Results[3] = charPIN[0];
-		Results[4] = (uint8_t) (48 + index);
-		Results[5] = 46; //kropka
-		Results[6] = ((uint8_t) 10 * frc_part) + 48;
-		Results[7] =
-				(uint8_t) ((100 * frc_part) - (10 * (Results[6] - 48)) + 48);
-		Results[8] = ' ';
-		USBD_Write(0x81, Results, sizeof(Results), dataSentCallback);
-	}
-}
 
 void PP_Read_Voltage(uint8_t PIN) {
 	float testvdd = 0;
@@ -570,13 +456,13 @@ void PP_Read_Voltage(uint8_t PIN) {
 	testvav = PP_ReadVav(PIN);
 
 	USBTIMER_DelayMs(10);
-	PrintfUSBfloat2char(testvdd, Printf_VDD, PIN);
+	//PrintfUSBfloat2char(testvdd, Printf_VDD, PIN);
 	USBTIMER_DelayMs(10);
-	PrintfUSBfloat2char(testtemp, Printf_Temp, PIN);
+	//PrintfUSBfloat2char(testtemp, Printf_Temp, PIN);
 	USBTIMER_DelayMs(10);
-	PrintfUSBfloat2char(testvref, Printf_VREF, PIN);
+	//PrintfUSBfloat2char(testvref, Printf_VREF, PIN);
 	USBTIMER_DelayMs(10);
-	PrintfUSBfloat2char(testvav, Printf_VAV, PIN);
+	//PrintfUSBfloat2char(testvav, Printf_VAV, PIN);
 	USBTIMER_DelayMs(10);
 }
 
@@ -585,10 +471,10 @@ void Main_Zadanie() {
 	uint8_t *p;
 	uint16_t lCRC16;
 
-	uint8_t val_zadanie[8];
-	uint8_t val_zadanie_eprom[5];
-	uint8_t test[3];
-	uint16_t voltage;
+	//uint8_t val_zadanie[8];
+	//uint8_t val_zadanie_eprom[5];
+	//uint8_t test[3];
+	//uint16_t voltage;
 
 
 	if(Tester.Zadanie.PK1 == Ogloszone){
@@ -636,7 +522,6 @@ void Main_Zadanie() {
 
 	if(Tester.Zadanie.VBAT == Ogloszone){
 		Tester.Zadanie.VBAT=Wykonywane;
-
 		if(Tester.Plytki.JEST_MZB == Podlaczono){
 			Tester.Pomiary.VBAT = ADC_Conversation(ZAL_POM_VBAT, ZAL_POM_VZAS2_VBAT);//Modul_fizyczny
 			Tester.Pomiary.VBAT = 4 * Tester.Pomiary.VBAT;
@@ -647,7 +532,6 @@ void Main_Zadanie() {
 		lCRC16=CRC16(Modbus_Buffor_Tab,7);
 		Modbus_Buffor_Tab[7]=(lCRC16>>8);Modbus_Buffor_Tab[8]=(lCRC16&0xFF);
 		USBD_Write(0x81,Modbus_Buffor_Tab,9,dataSentCallback);
-
 		Tester.Zadanie.VBAT=Nieogloszone;
 	}//END_Tester.Zadanie.VBAT
 
@@ -667,18 +551,55 @@ void Main_Zadanie() {
 		Tester_Relay_PK1_OFF();
 		Tester.Zadanie.I_TC=Nieogloszone;
 	}//END_Tester.Zadanie.I_TC
+
 	if(Tester.Zadanie.STC3105_Get_Voltage == Ogloszone){
 		Tester.Zadanie.STC3105_Get_Voltage = Wykonywane;
 		Tester.Pomiary.STC3105_Voltage=STC3105_GET_VOLTAGE();
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x02;
+		Modbus_Buffor_Tab[3]=(Tester.Pomiary.STC3105_Voltage&0xFF);Modbus_Buffor_Tab[4]=(Tester.Pomiary.STC3105_Voltage>>8);
+		lCRC16=CRC16(Modbus_Buffor_Tab,5);
+		Modbus_Buffor_Tab[5]=(lCRC16>>8);Modbus_Buffor_Tab[6]=(lCRC16&0xFF);
+		USBD_Write(0x81,Modbus_Buffor_Tab,7,dataSentCallback);
 		Tester.Zadanie.STC3105_Get_Voltage = Nieogloszone;
 	}//END_Tester.Zadanie.STC3105_Get_Voltage
 
+	if(Tester.Zadanie.STC3105_Get_Current == Ogloszone){
+		Tester.Zadanie.STC3105_Get_Current = Wykonywane;
+		Tester.Pomiary.STC3105_Current=STC3105_GET_CURRENT();
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x02;
+		Modbus_Buffor_Tab[3]=(Tester.Pomiary.STC3105_Current&0xFF);Modbus_Buffor_Tab[4]=(Tester.Pomiary.STC3105_Current>>8);
+		lCRC16=CRC16(Modbus_Buffor_Tab,5);
+		Modbus_Buffor_Tab[5]=(lCRC16>>8);Modbus_Buffor_Tab[6]=(lCRC16&0xFF);
+		USBD_Write(0x81,Modbus_Buffor_Tab,7,dataSentCallback);
+		Tester.Zadanie.STC3105_Get_Current = Nieogloszone;
+	}//END_Tester.Zadanie.STC3105_Get_Current
+
+	if(Tester.Zadanie.STC3105_Get_Counter == Ogloszone){
+		Tester.Zadanie.STC3105_Get_Counter = Wykonywane;
+		Tester.Pomiary.STC3105_Counter=STC3105_GET_COUNTER();
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x02;
+		Modbus_Buffor_Tab[3]=(Tester.Pomiary.STC3105_Counter&0xFF);Modbus_Buffor_Tab[4]=(Tester.Pomiary.STC3105_Counter>>8);
+		lCRC16=CRC16(Modbus_Buffor_Tab,5);
+		Modbus_Buffor_Tab[5]=(lCRC16>>8);Modbus_Buffor_Tab[6]=(lCRC16&0xFF);
+		USBD_Write(0x81,Modbus_Buffor_Tab,7,dataSentCallback);
+		Tester.Zadanie.STC3105_Get_Counter = Nieogloszone;
+	}//END_Tester.Zadanie.STC3105_Get_Counter
+
+	if(Tester.Zadanie.STC3105_Get_Charge == Ogloszone){
+		Tester.Zadanie.STC3105_Get_Charge = Wykonywane;
+		Tester.Pomiary.STC3105_Charge=STC3105_GET_CHARGE();
+		Modbus_Buffor_Tab[0]=0x10;Modbus_Buffor_Tab[1]=0x03;Modbus_Buffor_Tab[2]=0x02;
+		Modbus_Buffor_Tab[3]=(Tester.Pomiary.STC3105_Charge&0xFF);Modbus_Buffor_Tab[4]=(Tester.Pomiary.STC3105_Charge>>8);
+		lCRC16=CRC16(Modbus_Buffor_Tab,5);
+		Modbus_Buffor_Tab[5]=(lCRC16>>8);Modbus_Buffor_Tab[6]=(lCRC16&0xFF);
+		USBD_Write(0x81,Modbus_Buffor_Tab,7,dataSentCallback);
+		Tester.Zadanie.STC3105_Get_Charge = Nieogloszone;
+	}//END_Tester.Zadanie.STC3105_Get_Culomb
 
 
 
 
-
-	while (flaga_zadan.PP_Epro != 0) {
+	/*while (flaga_zadan.PP_Epro != 0) {
 		val_zadanie_eprom[0] = 'E';
 		val_zadanie_eprom[1] = 'P';
 		val_zadanie_eprom[2] = 'R';
@@ -739,10 +660,7 @@ void Main_Zadanie() {
 			USBD_Write(0x81, val_zadanie_eprom, sizeof(val_zadanie_eprom),
 					dataSentCallback);
 		}
-		/*}else{
-		 flaga_zadan.PP_Epro &= 0x00;
-		 val_zadanie_eprom[3]='B';	val_zadanie_eprom[4]='P'; //brak peryferium
-		 }*/
+
 	}
 	while (flaga_zadan.PP_Vol != 0) {
 		if ((flaga_zadan.PP_Vol & 0x01) == 1) //Slot 1
@@ -1018,5 +936,5 @@ void Main_Zadanie() {
 			flaga_zadan.TT_G &= 0x7F; //TEST RESTART
 			Hardware_TEST_RESTART();
 		}
-	}
+	}*/
 }

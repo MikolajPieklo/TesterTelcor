@@ -54,7 +54,45 @@
 #define STC3105_R_RAM14		 				46
 #define STC3105_R_RAM15		 				47
 
+typedef struct{
+	uint8_t REG_MODE;
+	uint8_t REG_CTRL;
+	uint8_t REG_CHARGE_Lo;
+	uint8_t REG_CHARGE_Hi;
+	uint8_t REG_COUNTER_Lo;
+	uint8_t REG_COUNTER_Hi;
+	uint8_t REG_CURRENT_Lo;
+	uint8_t REG_CURRENT_Hi;
+	uint8_t REG_VOLTAGE_Lo;
+	uint8_t REG_VOLTAGE_Hi;
+	uint8_t REG_SOC_BASE_Lo;
+	uint8_t REG_SOC_BASE_Hi;
+	uint8_t REG_ALARM_SOC_Lo;
+	uint8_t REG_ALARM_SOC_Hi;
+	uint8_t REG_ALARM_VOLTAGE;
+	uint8_t REG_CURRENT_THRES;
+	uint8_t REG_RELAX_COUNT;
+	uint8_t REG_ID;
+}tREG_STC3105;
+
+typedef struct{
+	tREG_STC3105 REG;
+	uint8_t Init;
+	uint8_t Access;
+	uint16_t Voltage;
+
+	uint8_t temp;
+
+}tSTC3105;
+tSTC3105 STC3105_U1;
+
+void STC3105_Get_ID(void);
+void STC3105_Init_Default(void);
 void STC3105_Init_ConfigMode(uint8_t reg, uint8_t config);
+
+void STC3105_GET_Register(tSTC3105 *U);
+
+
 void STC3105_WriteRegister(uint8_t reg, uint8_t value);
 
 uint8_t STC3105_ReadRegister(uint8_t reg);
@@ -68,10 +106,11 @@ uint16_t STC3105_GET_SOC_BASE();
 uint16_t STC3105_GET_ALARM_SOC();
 
 
+
 void STC3105_SET_SOC_BASE(uint16_t value);
 void STC3105_RESET_ALM();
 void STC3105_SET_ALARM(uint8_t alarm);
 void STC3105_SET_ALARM_SOC(uint16_t value);
 void STC3105_SET_CURRENT_THRES(uint8_t current_thres);
 
-void STC3105_INIT_I2C(void);
+
